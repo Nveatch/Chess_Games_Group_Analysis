@@ -1,4 +1,5 @@
 --Creating DB called "lichess_data" DB in pgAdmin
+-- Import the data in pdAdmin from games.csv
 CREATE TABLE games (
      
 id VARCHAR NOT NULL,
