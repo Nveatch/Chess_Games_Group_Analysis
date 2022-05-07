@@ -1,5 +1,16 @@
 # Group_1_Final_Project
 
+## Datasets
+For our analysis we used 3 different chess datasets sourced from Kaggle:
+
+1. A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API
+
+2. A collection of 6.25 million chess games played on lichess.org during July of 2016
+
+3. A collection of 3.5 million chess games stored in the chess database ChessDB, with dates ranging from the late 1700s to the early 2000s
+
+These datasets contain information on when the games were played, the identity and ratings of the players, the final result, and the moves played by each side.
+
 ## Big Picture Question: Can data analytics be used to make you a better chess player?
 
 ### Statistical Analysis Questions
