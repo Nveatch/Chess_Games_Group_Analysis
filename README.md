@@ -33,4 +33,10 @@ These datasets contain information on when the games were played, the identity a
 1. Does the opening matter? If an opening is defined by the first 5 moves, can an ML model predict (*with a high degree of accuracy) a winner from a color's first five moves?
     
 2. Given an opening, player color, player rating, player rating difference, and number of moves, can a winner be predicted with an ML model?
-    
+ 
+## Dataset References
+1. https://www.kaggle.com/datasets/datasnaek/chess
+
+2. https://www.kaggle.com/datasets/arevel/chess-games
+
+3. https://www.kaggle.com/datasets/milesh1/35-million-chess-games
