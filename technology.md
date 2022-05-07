@@ -2,16 +2,16 @@
 
 ## Data Cleaning and Analysis
 
-Pandas and Python will be used to clean and preprocess data for this analysis.
+Excess columns were initially removed from the dataset using Microsoft Excel. The features of our model are made up of qualitative data describing moves made during games of chess, so we will convert each unique move to a unique numerical value using Python and save the preprocessed data in a Pandas dataframe. We will then scale the unique numerical values down to a range between 0 and 1 using MinMaxScaler to be used in our machine learning model.
 
 ## Database Storage
 
-The data will be stored in a postgres SQL database. Each group member will have identical databases saved locally.
+The data will be stored in a postgres SQL database in pgAdmin. Each group member will have identical databases saved locally to ensure continuity.
 
 ## Machine Learning
 
-_____________ is the ML library. Our training and testing setup is ______________. [other info]
+We will use the SciKitLearn library to access machine learning models, and we will employ a neural network during our analysis.
 
 ## Dashboard
 
-Tableau? Flask? TBD
+We will use Tableau to visualize the outcomes of our machine learning model.
