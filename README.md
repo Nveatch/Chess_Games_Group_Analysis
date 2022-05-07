@@ -18,16 +18,14 @@ These datasets contain information on when the games were played, the identity a
 
 ### Statistical Analysis Questions
 1. What is the probability of win/lose/draw by color, and does that change by rating bracket?
-
-2. What is the average number of turns for a win or loss, by color, by bracket?
     
-3. What are your chances of winning based on ELO difference, for both white and black? Does that change per bracket?
+2. What are your chances of winning based on ELO difference, for both white and black? Does that change per bracket?
     
-4. What is the most commmon opening overall, and by ELO bracket?
+3. What is the most commmon opening overall, and by ELO bracket?
 
-5. What opening has the highest win chance by color and by ELO bracket?
+4. What opening has the highest win chance by color and by ELO bracket?
 
-6. By ELO bracket, what is the average number of games needed to improve?
+5. By ELO bracket, what is the average number of games needed to improve?
     
 ### Machine Learning Questions
 1. Does the opening matter? If an opening is defined by the first 5 moves, can an ML model predict (*with a high degree of accuracy) a winner from a color's first five moves?
