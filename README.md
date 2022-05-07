@@ -1,6 +1,12 @@
 # Group_1_Final_Project
 
-## Datasets
+## Overview
+
+### Purpose
+The purpose of our analysis was to use statistical and machine learning analysis on a large dataset of chess games, in order to answer broad questions about how the games of chess is generally played. It was our hope that the answers to these questions could be applied to our own chess games, and thus make us better players.
+
+
+### Datasets
 For our analysis we used 3 different chess datasets sourced from Kaggle:
 
 1. A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API
