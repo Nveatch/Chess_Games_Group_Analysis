@@ -16,6 +16,9 @@ For our analysis we used 3 different chess datasets sourced from Kaggle:
 
 These datasets contain information on when the games were played, the identity and ratings of the players, the final result, and the moves played by each side.
 
+### Communication Protocols
+Our group communicated throughout the week using our dedicated Slack channel, and in addition to meeting on Mondays and Wednesdays via Zoom during lecture, met on Saturday via Zoom during office hours to check over each others work for the week before submitting it. 
+
 ### Statistical Analysis Questions
 1. What is the probability of win/lose/draw by color, and does that change by rating bracket?
     
