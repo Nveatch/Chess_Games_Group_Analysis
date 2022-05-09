@@ -3,7 +3,7 @@
 ## Overview
 
 ### Purpose
-The purpose of our analysis was to use statistical and machine learning analysis on a large dataset of chess games, in order to answer broad questions about how the games of chess is generally played. It was our hope that the answers to these questions could be applied to our own chess games, and thus make us better players. As chess is ultimately a game of pattern recognition, looking for commonalities in positions you've seen before in order to win the game, it made sense to us to use machine learning to do our analysis, as it excels at detecting patterns and trends in data at the macroscopic scale.
+The purpose of our analysis was to use statistical and machine learning analysis on a large dataset of chess games, in order to answer broad questions about how the games of chess is generally played. It was our hope that the answers to these questions could be applied to our own chess games, and thus make us better players. As chess is ultimately a game of pattern recognition, looking for commonalities in positions you've seen before in order to win the game, it made sense to us to pick this as our topic, because machine learning excels at detecting patterns and trends in data at the macroscopic scale.
 
 ### Datasets
 For our analysis we used 3 different chess datasets sourced from Kaggle:
