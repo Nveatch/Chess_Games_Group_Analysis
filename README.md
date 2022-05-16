@@ -8,7 +8,26 @@ https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64E
 ### Purpose
 The purpose of our analysis was to use statistical and machine learning analysis on a large dataset of chess games, in order to answer broad questions about how the games of chess is generally played. It was our hope that the answers to these questions could be applied to our own chess games, and thus make us better players. As chess is ultimately a game of pattern recognition, looking for commonalities in positions you've seen before in order to win the game, it made sense to us to pick this as our topic, because machine learning excels at detecting patterns and trends in data at the macroscopic scale.
 
-### Datasets
+### Workflow Outline
+1. Raw datasets downloaded and imported into jupyter notebook
+
+2. Chess_games.csv randomly sampled for 1 million rows
+
+3. Datasets modified to remove un-needed columns, and columns renamed to mirror each other
+
+4. Datasets were cleaned up, through processes such as removing unnecessary info from "moves" column, and converting date and time columns to datetime
+
+5. Datasets exported to PgAdmin database
+
+6. In PgAdmin, datasets merged into one table
+
+7a. Dataset imported into Tableau to answer statistical analysis questions
+
+7b. Dataset imported back into jupyter notebook to perform machine learning analysis
+
+8. Visualizations from Tableau combined with machine learning analysis on google slides for final presentation
+
+## Datasets
 For our analysis we used 3 different chess datasets sourced from Kaggle:
 
 1. A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API
