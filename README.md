@@ -21,11 +21,11 @@ The purpose of our analysis was to use statistical and machine learning analysis
 
 6. In PgAdmin, datasets merged into one table
 
-7a. Dataset imported into Tableau to answer statistical analysis questions
+7. Dataset imported into Tableau to answer statistical analysis questions/create visualizations
 
-7b. Dataset imported back into jupyter notebook to perform machine learning analysis
+8. Dataset imported back into jupyter notebook to perform machine learning analysis
 
-8. Visualizations from Tableau combined with machine learning analysis on google slides for final presentation
+9. Visualizations from Tableau combined with machine learning analysis on google slides for final presentation
 
 ## Datasets
 For our analysis we used 3 different chess datasets sourced from Kaggle:
