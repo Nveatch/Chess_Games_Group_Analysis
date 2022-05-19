@@ -85,10 +85,6 @@ For our analysis we used 3 different chess datasets sourced from Kaggle:
     -We will be randomly sampling 1 million rows off of this table, to reduce the computational power needed to complete our analysis. We believe this sample size will still be sufficiently large to draw our conclusion
 
 
-
-### Communication Protocols
-Our group communicated throughout the week using our dedicated Slack channel, and in addition to meeting on Mondays and Wednesdays via Zoom during lecture, met on Saturday via Zoom during office hours to check over each others work for the week before submitting it. 
-
 ### Statistical Analysis Questions
 1. What is the probability of win/lose/draw by color, and does that change by rating bracket?
     
