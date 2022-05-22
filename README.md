@@ -3,6 +3,9 @@
 ### Google Slides Link
 https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64EaXw/edit?usp=sharing
 
+### Dashboard Link
+https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Lichess_Games_Data_Visualization?publish=yes
+
 ## Introduction
 
 ### Purpose
@@ -77,26 +80,26 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
     
     -The following columns will be used for statistical analysis
 
-        -**Turns:** Number of moves played (to be derived from the move list "AN")
+        -Turns: Number of moves played (to be derived from the move list "AN")
 
-        -**Result:** Who won the game
+        -Result: Who won the game
 
-        -**White/Black:** The ID of the player for the respective side
+        -White/Black: The ID of the player for the respective side
 
-        -**White/BlackElo:** The ELO rankings for the white and black players
+        -White/BlackElo: The ELO rankings for the white and black players
 
-        -**White/BlackRatingDiff:** The rating difference between the two players
+        -*/BlackRatingDiff: The rating difference between the two players
 
-        -**ECO:** The generic ECO code for the opening
+        -ECO: The generic ECO code for the opening
 
-        -**Opening:** The specific name of the opening
+        -Opening: The specific name of the opening
 
 
     -The columns that will be used for the ML analysis are:
 
-        -**Result:** Game result (as our labels)
+        -Result: Game result (as our labels)
 
-        -**AN:** Movements in the game (as our features)
+        -AN: Movements in the game (as our features)
 
 
  ### II. Build Custom Tables
@@ -117,9 +120,9 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 
     -The table has two columns:
 
-        -**ECO_code:** The opening ECO code, with a letter prefix (A through E) and two digit number (00 through 99), resulting in 500 possible codes
+        -ECO_code: The opening ECO code, with a letter prefix (A through E) and two digit number (00 through 99), resulting in 500 possible codes
 
-        -**ECO_title:** The name of the opening associated with that ECO code, with variations being changed to their parent name(ex. B28 (Sicilian Defense, O'Kelly Variation) is changed to match the parent opening B20 (Sicilian Defense))
+        -ECO_title:*The name of the opening associated with that ECO code, with variations being changed to their parent name(ex. B28 (Sicilian Defense, O'Kelly Variation) is changed to match the parent opening B20 (Sicilian Defense))
 
 
 ### III. Raw Table Preprocessing (Data Exploration)
@@ -148,7 +151,7 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 
 * Player data from master **games** table joined with **chess_titles** table to make **player_titles** table, for use in answering statistical analysis questions (player_id/player_rating/player_title)
 
-*  Master **games** table exported out of database into jupyter notebook to replace opening names with simplified names from **chess_openings.csv**, then imported back into database
+*  Master **games** table exported out of database into jupyter notebook to replace opening names with simplified names from **chess_openings.csv**, as well as to remove rows without a winner, then imported back into database
 
 ### V: Build the Machine Learning (ML) Model
 
@@ -198,15 +201,30 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 
 #### Standardization
 -Each unique move was assigned its own unique number for each feature column (ex. “E4” was 0, "D4" was 1, etc.), and our “result” label column was also transformed with a unique number for each result:
-    - 0: White wins
+    - 0: Draw
     
-    - 1: Draw
+    - 1: White Wins
     
-    - 2: Black wins  
+    - 2: Black wins
+
+![ML Table](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_table.png)
+
+### ML Results
+ Since our last submission, we have evaluated an additional 5 models for a total of 6. The loss, accuracy scores, and parameters of our 6 models are shown below:
+
+ ![ML Results](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_results.png)
+
+The accuracy score for all 6 models was identical at 0.4983. An accuracy score of exactly 0.5 is the probability of randomly guessing the correct winner of a given game of chess, so the accuracy score of our models may reflect the difficulty of predicting a winner from only the first 10 moves of a game. Since games typically last far longer than 10 turns and the possible combinations of moves grow increasingly complex, this is not a surprising conclusion.
+
+Loss function, on the other hand, was not constant. The two models with relu inputs (Models 2 and 5) had the greatest loss score, indicating that the relu activation function is likely not the best choice for our model. Additionally, the models with sigmoid outputs (Models 1, 2, and 3) had lower loss functions than their counterpart models with linear outputs (Models 4, 5, and 6 respectively). This is expected, as output from a sigmoid function tends to be very close to either 0 or 1. We are posing a question with a binary answer, so a sigmoid function is the best choice for an activation function for our output layer.
+
+Given this information, our course of action for the final steps of completing this model will be to explore more varied input layers. This will be accomplished by varying the activation function (using sigmoid and tanh, leaving relu out), number of layers, number of nodes within each layer, and number of epochs used to train the model. We hypothesize that the sigmoid activation function will be the more appropriate choice for the input layer(s) for the same reasons it is the best choice for the output layer.
 
 ### VI: Build the Dashboard (Statistical Analysis/Data Analysis)
 
 * Master games table imported into Tableau, to answer statistical analysis questions and generate visualizations
+
+* Tableau Link to visualizations: https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Lichess_Games_Data_Visualization?publish=yes
 
 ### VII: Presentation
 * Results from machine learning model and statistical analysis put together on Google Slides presentation
