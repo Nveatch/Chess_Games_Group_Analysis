@@ -1,0 +1,3002 @@
+ELO_rating,title
+0,Novice
+1,Novice
+2,Novice
+3,Novice
+4,Novice
+5,Novice
+6,Novice
+7,Novice
+8,Novice
+9,Novice
+10,Novice
+11,Novice
+12,Novice
+13,Novice
+14,Novice
+15,Novice
+16,Novice
+17,Novice
+18,Novice
+19,Novice
+20,Novice
+21,Novice
+22,Novice
+23,Novice
+24,Novice
+25,Novice
+26,Novice
+27,Novice
+28,Novice
+29,Novice
+30,Novice
+31,Novice
+32,Novice
+33,Novice
+34,Novice
+35,Novice
+36,Novice
+37,Novice
+38,Novice
+39,Novice
+40,Novice
+41,Novice
+42,Novice
+43,Novice
+44,Novice
+45,Novice
+46,Novice
+47,Novice
+48,Novice
+49,Novice
+50,Novice
+51,Novice
+52,Novice
+53,Novice
+54,Novice
+55,Novice
+56,Novice
+57,Novice
+58,Novice
+59,Novice
+60,Novice
+61,Novice
+62,Novice
+63,Novice
+64,Novice
+65,Novice
+66,Novice
+67,Novice
+68,Novice
+69,Novice
+70,Novice
+71,Novice
+72,Novice
+73,Novice
+74,Novice
+75,Novice
+76,Novice
+77,Novice
+78,Novice
+79,Novice
+80,Novice
+81,Novice
+82,Novice
+83,Novice
+84,Novice
+85,Novice
+86,Novice
+87,Novice
+88,Novice
+89,Novice
+90,Novice
+91,Novice
+92,Novice
+93,Novice
+94,Novice
+95,Novice
+96,Novice
+97,Novice
+98,Novice
+99,Novice
+100,Novice
+101,Novice
+102,Novice
+103,Novice
+104,Novice
+105,Novice
+106,Novice
+107,Novice
+108,Novice
+109,Novice
+110,Novice
+111,Novice
+112,Novice
+113,Novice
+114,Novice
+115,Novice
+116,Novice
+117,Novice
+118,Novice
+119,Novice
+120,Novice
+121,Novice
+122,Novice
+123,Novice
+124,Novice
+125,Novice
+126,Novice
+127,Novice
+128,Novice
+129,Novice
+130,Novice
+131,Novice
+132,Novice
+133,Novice
+134,Novice
+135,Novice
+136,Novice
+137,Novice
+138,Novice
+139,Novice
+140,Novice
+141,Novice
+142,Novice
+143,Novice
+144,Novice
+145,Novice
+146,Novice
+147,Novice
+148,Novice
+149,Novice
+150,Novice
+151,Novice
+152,Novice
+153,Novice
+154,Novice
+155,Novice
+156,Novice
+157,Novice
+158,Novice
+159,Novice
+160,Novice
+161,Novice
+162,Novice
+163,Novice
+164,Novice
+165,Novice
+166,Novice
+167,Novice
+168,Novice
+169,Novice
+170,Novice
+171,Novice
+172,Novice
+173,Novice
+174,Novice
+175,Novice
+176,Novice
+177,Novice
+178,Novice
+179,Novice
+180,Novice
+181,Novice
+182,Novice
+183,Novice
+184,Novice
+185,Novice
+186,Novice
+187,Novice
+188,Novice
+189,Novice
+190,Novice
+191,Novice
+192,Novice
+193,Novice
+194,Novice
+195,Novice
+196,Novice
+197,Novice
+198,Novice
+199,Novice
+200,Novice
+201,Novice
+202,Novice
+203,Novice
+204,Novice
+205,Novice
+206,Novice
+207,Novice
+208,Novice
+209,Novice
+210,Novice
+211,Novice
+212,Novice
+213,Novice
+214,Novice
+215,Novice
+216,Novice
+217,Novice
+218,Novice
+219,Novice
+220,Novice
+221,Novice
+222,Novice
+223,Novice
+224,Novice
+225,Novice
+226,Novice
+227,Novice
+228,Novice
+229,Novice
+230,Novice
+231,Novice
+232,Novice
+233,Novice
+234,Novice
+235,Novice
+236,Novice
+237,Novice
+238,Novice
+239,Novice
+240,Novice
+241,Novice
+242,Novice
+243,Novice
+244,Novice
+245,Novice
+246,Novice
+247,Novice
+248,Novice
+249,Novice
+250,Novice
+251,Novice
+252,Novice
+253,Novice
+254,Novice
+255,Novice
+256,Novice
+257,Novice
+258,Novice
+259,Novice
+260,Novice
+261,Novice
+262,Novice
+263,Novice
+264,Novice
+265,Novice
+266,Novice
+267,Novice
+268,Novice
+269,Novice
+270,Novice
+271,Novice
+272,Novice
+273,Novice
+274,Novice
+275,Novice
+276,Novice
+277,Novice
+278,Novice
+279,Novice
+280,Novice
+281,Novice
+282,Novice
+283,Novice
+284,Novice
+285,Novice
+286,Novice
+287,Novice
+288,Novice
+289,Novice
+290,Novice
+291,Novice
+292,Novice
+293,Novice
+294,Novice
+295,Novice
+296,Novice
+297,Novice
+298,Novice
+299,Novice
+300,Novice
+301,Novice
+302,Novice
+303,Novice
+304,Novice
+305,Novice
+306,Novice
+307,Novice
+308,Novice
+309,Novice
+310,Novice
+311,Novice
+312,Novice
+313,Novice
+314,Novice
+315,Novice
+316,Novice
+317,Novice
+318,Novice
+319,Novice
+320,Novice
+321,Novice
+322,Novice
+323,Novice
+324,Novice
+325,Novice
+326,Novice
+327,Novice
+328,Novice
+329,Novice
+330,Novice
+331,Novice
+332,Novice
+333,Novice
+334,Novice
+335,Novice
+336,Novice
+337,Novice
+338,Novice
+339,Novice
+340,Novice
+341,Novice
+342,Novice
+343,Novice
+344,Novice
+345,Novice
+346,Novice
+347,Novice
+348,Novice
+349,Novice
+350,Novice
+351,Novice
+352,Novice
+353,Novice
+354,Novice
+355,Novice
+356,Novice
+357,Novice
+358,Novice
+359,Novice
+360,Novice
+361,Novice
+362,Novice
+363,Novice
+364,Novice
+365,Novice
+366,Novice
+367,Novice
+368,Novice
+369,Novice
+370,Novice
+371,Novice
+372,Novice
+373,Novice
+374,Novice
+375,Novice
+376,Novice
+377,Novice
+378,Novice
+379,Novice
+380,Novice
+381,Novice
+382,Novice
+383,Novice
+384,Novice
+385,Novice
+386,Novice
+387,Novice
+388,Novice
+389,Novice
+390,Novice
+391,Novice
+392,Novice
+393,Novice
+394,Novice
+395,Novice
+396,Novice
+397,Novice
+398,Novice
+399,Novice
+400,Novice
+401,Novice
+402,Novice
+403,Novice
+404,Novice
+405,Novice
+406,Novice
+407,Novice
+408,Novice
+409,Novice
+410,Novice
+411,Novice
+412,Novice
+413,Novice
+414,Novice
+415,Novice
+416,Novice
+417,Novice
+418,Novice
+419,Novice
+420,Novice
+421,Novice
+422,Novice
+423,Novice
+424,Novice
+425,Novice
+426,Novice
+427,Novice
+428,Novice
+429,Novice
+430,Novice
+431,Novice
+432,Novice
+433,Novice
+434,Novice
+435,Novice
+436,Novice
+437,Novice
+438,Novice
+439,Novice
+440,Novice
+441,Novice
+442,Novice
+443,Novice
+444,Novice
+445,Novice
+446,Novice
+447,Novice
+448,Novice
+449,Novice
+450,Novice
+451,Novice
+452,Novice
+453,Novice
+454,Novice
+455,Novice
+456,Novice
+457,Novice
+458,Novice
+459,Novice
+460,Novice
+461,Novice
+462,Novice
+463,Novice
+464,Novice
+465,Novice
+466,Novice
+467,Novice
+468,Novice
+469,Novice
+470,Novice
+471,Novice
+472,Novice
+473,Novice
+474,Novice
+475,Novice
+476,Novice
+477,Novice
+478,Novice
+479,Novice
+480,Novice
+481,Novice
+482,Novice
+483,Novice
+484,Novice
+485,Novice
+486,Novice
+487,Novice
+488,Novice
+489,Novice
+490,Novice
+491,Novice
+492,Novice
+493,Novice
+494,Novice
+495,Novice
+496,Novice
+497,Novice
+498,Novice
+499,Novice
+500,Novice
+501,Novice
+502,Novice
+503,Novice
+504,Novice
+505,Novice
+506,Novice
+507,Novice
+508,Novice
+509,Novice
+510,Novice
+511,Novice
+512,Novice
+513,Novice
+514,Novice
+515,Novice
+516,Novice
+517,Novice
+518,Novice
+519,Novice
+520,Novice
+521,Novice
+522,Novice
+523,Novice
+524,Novice
+525,Novice
+526,Novice
+527,Novice
+528,Novice
+529,Novice
+530,Novice
+531,Novice
+532,Novice
+533,Novice
+534,Novice
+535,Novice
+536,Novice
+537,Novice
+538,Novice
+539,Novice
+540,Novice
+541,Novice
+542,Novice
+543,Novice
+544,Novice
+545,Novice
+546,Novice
+547,Novice
+548,Novice
+549,Novice
+550,Novice
+551,Novice
+552,Novice
+553,Novice
+554,Novice
+555,Novice
+556,Novice
+557,Novice
+558,Novice
+559,Novice
+560,Novice
+561,Novice
+562,Novice
+563,Novice
+564,Novice
+565,Novice
+566,Novice
+567,Novice
+568,Novice
+569,Novice
+570,Novice
+571,Novice
+572,Novice
+573,Novice
+574,Novice
+575,Novice
+576,Novice
+577,Novice
+578,Novice
+579,Novice
+580,Novice
+581,Novice
+582,Novice
+583,Novice
+584,Novice
+585,Novice
+586,Novice
+587,Novice
+588,Novice
+589,Novice
+590,Novice
+591,Novice
+592,Novice
+593,Novice
+594,Novice
+595,Novice
+596,Novice
+597,Novice
+598,Novice
+599,Novice
+600,Novice
+601,Novice
+602,Novice
+603,Novice
+604,Novice
+605,Novice
+606,Novice
+607,Novice
+608,Novice
+609,Novice
+610,Novice
+611,Novice
+612,Novice
+613,Novice
+614,Novice
+615,Novice
+616,Novice
+617,Novice
+618,Novice
+619,Novice
+620,Novice
+621,Novice
+622,Novice
+623,Novice
+624,Novice
+625,Novice
+626,Novice
+627,Novice
+628,Novice
+629,Novice
+630,Novice
+631,Novice
+632,Novice
+633,Novice
+634,Novice
+635,Novice
+636,Novice
+637,Novice
+638,Novice
+639,Novice
+640,Novice
+641,Novice
+642,Novice
+643,Novice
+644,Novice
+645,Novice
+646,Novice
+647,Novice
+648,Novice
+649,Novice
+650,Novice
+651,Novice
+652,Novice
+653,Novice
+654,Novice
+655,Novice
+656,Novice
+657,Novice
+658,Novice
+659,Novice
+660,Novice
+661,Novice
+662,Novice
+663,Novice
+664,Novice
+665,Novice
+666,Novice
+667,Novice
+668,Novice
+669,Novice
+670,Novice
+671,Novice
+672,Novice
+673,Novice
+674,Novice
+675,Novice
+676,Novice
+677,Novice
+678,Novice
+679,Novice
+680,Novice
+681,Novice
+682,Novice
+683,Novice
+684,Novice
+685,Novice
+686,Novice
+687,Novice
+688,Novice
+689,Novice
+690,Novice
+691,Novice
+692,Novice
+693,Novice
+694,Novice
+695,Novice
+696,Novice
+697,Novice
+698,Novice
+699,Novice
+700,Novice
+701,Novice
+702,Novice
+703,Novice
+704,Novice
+705,Novice
+706,Novice
+707,Novice
+708,Novice
+709,Novice
+710,Novice
+711,Novice
+712,Novice
+713,Novice
+714,Novice
+715,Novice
+716,Novice
+717,Novice
+718,Novice
+719,Novice
+720,Novice
+721,Novice
+722,Novice
+723,Novice
+724,Novice
+725,Novice
+726,Novice
+727,Novice
+728,Novice
+729,Novice
+730,Novice
+731,Novice
+732,Novice
+733,Novice
+734,Novice
+735,Novice
+736,Novice
+737,Novice
+738,Novice
+739,Novice
+740,Novice
+741,Novice
+742,Novice
+743,Novice
+744,Novice
+745,Novice
+746,Novice
+747,Novice
+748,Novice
+749,Novice
+750,Novice
+751,Novice
+752,Novice
+753,Novice
+754,Novice
+755,Novice
+756,Novice
+757,Novice
+758,Novice
+759,Novice
+760,Novice
+761,Novice
+762,Novice
+763,Novice
+764,Novice
+765,Novice
+766,Novice
+767,Novice
+768,Novice
+769,Novice
+770,Novice
+771,Novice
+772,Novice
+773,Novice
+774,Novice
+775,Novice
+776,Novice
+777,Novice
+778,Novice
+779,Novice
+780,Novice
+781,Novice
+782,Novice
+783,Novice
+784,Novice
+785,Novice
+786,Novice
+787,Novice
+788,Novice
+789,Novice
+790,Novice
+791,Novice
+792,Novice
+793,Novice
+794,Novice
+795,Novice
+796,Novice
+797,Novice
+798,Novice
+799,Novice
+800,Novice
+801,Novice
+802,Novice
+803,Novice
+804,Novice
+805,Novice
+806,Novice
+807,Novice
+808,Novice
+809,Novice
+810,Novice
+811,Novice
+812,Novice
+813,Novice
+814,Novice
+815,Novice
+816,Novice
+817,Novice
+818,Novice
+819,Novice
+820,Novice
+821,Novice
+822,Novice
+823,Novice
+824,Novice
+825,Novice
+826,Novice
+827,Novice
+828,Novice
+829,Novice
+830,Novice
+831,Novice
+832,Novice
+833,Novice
+834,Novice
+835,Novice
+836,Novice
+837,Novice
+838,Novice
+839,Novice
+840,Novice
+841,Novice
+842,Novice
+843,Novice
+844,Novice
+845,Novice
+846,Novice
+847,Novice
+848,Novice
+849,Novice
+850,Novice
+851,Novice
+852,Novice
+853,Novice
+854,Novice
+855,Novice
+856,Novice
+857,Novice
+858,Novice
+859,Novice
+860,Novice
+861,Novice
+862,Novice
+863,Novice
+864,Novice
+865,Novice
+866,Novice
+867,Novice
+868,Novice
+869,Novice
+870,Novice
+871,Novice
+872,Novice
+873,Novice
+874,Novice
+875,Novice
+876,Novice
+877,Novice
+878,Novice
+879,Novice
+880,Novice
+881,Novice
+882,Novice
+883,Novice
+884,Novice
+885,Novice
+886,Novice
+887,Novice
+888,Novice
+889,Novice
+890,Novice
+891,Novice
+892,Novice
+893,Novice
+894,Novice
+895,Novice
+896,Novice
+897,Novice
+898,Novice
+899,Novice
+900,Novice
+901,Novice
+902,Novice
+903,Novice
+904,Novice
+905,Novice
+906,Novice
+907,Novice
+908,Novice
+909,Novice
+910,Novice
+911,Novice
+912,Novice
+913,Novice
+914,Novice
+915,Novice
+916,Novice
+917,Novice
+918,Novice
+919,Novice
+920,Novice
+921,Novice
+922,Novice
+923,Novice
+924,Novice
+925,Novice
+926,Novice
+927,Novice
+928,Novice
+929,Novice
+930,Novice
+931,Novice
+932,Novice
+933,Novice
+934,Novice
+935,Novice
+936,Novice
+937,Novice
+938,Novice
+939,Novice
+940,Novice
+941,Novice
+942,Novice
+943,Novice
+944,Novice
+945,Novice
+946,Novice
+947,Novice
+948,Novice
+949,Novice
+950,Novice
+951,Novice
+952,Novice
+953,Novice
+954,Novice
+955,Novice
+956,Novice
+957,Novice
+958,Novice
+959,Novice
+960,Novice
+961,Novice
+962,Novice
+963,Novice
+964,Novice
+965,Novice
+966,Novice
+967,Novice
+968,Novice
+969,Novice
+970,Novice
+971,Novice
+972,Novice
+973,Novice
+974,Novice
+975,Novice
+976,Novice
+977,Novice
+978,Novice
+979,Novice
+980,Novice
+981,Novice
+982,Novice
+983,Novice
+984,Novice
+985,Novice
+986,Novice
+987,Novice
+988,Novice
+989,Novice
+990,Novice
+991,Novice
+992,Novice
+993,Novice
+994,Novice
+995,Novice
+996,Novice
+997,Novice
+998,Novice
+999,Novice
+1000,Novice
+1001,Novice
+1002,Novice
+1003,Novice
+1004,Novice
+1005,Novice
+1006,Novice
+1007,Novice
+1008,Novice
+1009,Novice
+1010,Novice
+1011,Novice
+1012,Novice
+1013,Novice
+1014,Novice
+1015,Novice
+1016,Novice
+1017,Novice
+1018,Novice
+1019,Novice
+1020,Novice
+1021,Novice
+1022,Novice
+1023,Novice
+1024,Novice
+1025,Novice
+1026,Novice
+1027,Novice
+1028,Novice
+1029,Novice
+1030,Novice
+1031,Novice
+1032,Novice
+1033,Novice
+1034,Novice
+1035,Novice
+1036,Novice
+1037,Novice
+1038,Novice
+1039,Novice
+1040,Novice
+1041,Novice
+1042,Novice
+1043,Novice
+1044,Novice
+1045,Novice
+1046,Novice
+1047,Novice
+1048,Novice
+1049,Novice
+1050,Novice
+1051,Novice
+1052,Novice
+1053,Novice
+1054,Novice
+1055,Novice
+1056,Novice
+1057,Novice
+1058,Novice
+1059,Novice
+1060,Novice
+1061,Novice
+1062,Novice
+1063,Novice
+1064,Novice
+1065,Novice
+1066,Novice
+1067,Novice
+1068,Novice
+1069,Novice
+1070,Novice
+1071,Novice
+1072,Novice
+1073,Novice
+1074,Novice
+1075,Novice
+1076,Novice
+1077,Novice
+1078,Novice
+1079,Novice
+1080,Novice
+1081,Novice
+1082,Novice
+1083,Novice
+1084,Novice
+1085,Novice
+1086,Novice
+1087,Novice
+1088,Novice
+1089,Novice
+1090,Novice
+1091,Novice
+1092,Novice
+1093,Novice
+1094,Novice
+1095,Novice
+1096,Novice
+1097,Novice
+1098,Novice
+1099,Novice
+1100,Novice
+1101,Novice
+1102,Novice
+1103,Novice
+1104,Novice
+1105,Novice
+1106,Novice
+1107,Novice
+1108,Novice
+1109,Novice
+1110,Novice
+1111,Novice
+1112,Novice
+1113,Novice
+1114,Novice
+1115,Novice
+1116,Novice
+1117,Novice
+1118,Novice
+1119,Novice
+1120,Novice
+1121,Novice
+1122,Novice
+1123,Novice
+1124,Novice
+1125,Novice
+1126,Novice
+1127,Novice
+1128,Novice
+1129,Novice
+1130,Novice
+1131,Novice
+1132,Novice
+1133,Novice
+1134,Novice
+1135,Novice
+1136,Novice
+1137,Novice
+1138,Novice
+1139,Novice
+1140,Novice
+1141,Novice
+1142,Novice
+1143,Novice
+1144,Novice
+1145,Novice
+1146,Novice
+1147,Novice
+1148,Novice
+1149,Novice
+1150,Novice
+1151,Novice
+1152,Novice
+1153,Novice
+1154,Novice
+1155,Novice
+1156,Novice
+1157,Novice
+1158,Novice
+1159,Novice
+1160,Novice
+1161,Novice
+1162,Novice
+1163,Novice
+1164,Novice
+1165,Novice
+1166,Novice
+1167,Novice
+1168,Novice
+1169,Novice
+1170,Novice
+1171,Novice
+1172,Novice
+1173,Novice
+1174,Novice
+1175,Novice
+1176,Novice
+1177,Novice
+1178,Novice
+1179,Novice
+1180,Novice
+1181,Novice
+1182,Novice
+1183,Novice
+1184,Novice
+1185,Novice
+1186,Novice
+1187,Novice
+1188,Novice
+1189,Novice
+1190,Novice
+1191,Novice
+1192,Novice
+1193,Novice
+1194,Novice
+1195,Novice
+1196,Novice
+1197,Novice
+1198,Novice
+1199,Novice
+1200,Amateur (Class D)
+1201,Amateur (Class D)
+1202,Amateur (Class D)
+1203,Amateur (Class D)
+1204,Amateur (Class D)
+1205,Amateur (Class D)
+1206,Amateur (Class D)
+1207,Amateur (Class D)
+1208,Amateur (Class D)
+1209,Amateur (Class D)
+1210,Amateur (Class D)
+1211,Amateur (Class D)
+1212,Amateur (Class D)
+1213,Amateur (Class D)
+1214,Amateur (Class D)
+1215,Amateur (Class D)
+1216,Amateur (Class D)
+1217,Amateur (Class D)
+1218,Amateur (Class D)
+1219,Amateur (Class D)
+1220,Amateur (Class D)
+1221,Amateur (Class D)
+1222,Amateur (Class D)
+1223,Amateur (Class D)
+1224,Amateur (Class D)
+1225,Amateur (Class D)
+1226,Amateur (Class D)
+1227,Amateur (Class D)
+1228,Amateur (Class D)
+1229,Amateur (Class D)
+1230,Amateur (Class D)
+1231,Amateur (Class D)
+1232,Amateur (Class D)
+1233,Amateur (Class D)
+1234,Amateur (Class D)
+1235,Amateur (Class D)
+1236,Amateur (Class D)
+1237,Amateur (Class D)
+1238,Amateur (Class D)
+1239,Amateur (Class D)
+1240,Amateur (Class D)
+1241,Amateur (Class D)
+1242,Amateur (Class D)
+1243,Amateur (Class D)
+1244,Amateur (Class D)
+1245,Amateur (Class D)
+1246,Amateur (Class D)
+1247,Amateur (Class D)
+1248,Amateur (Class D)
+1249,Amateur (Class D)
+1250,Amateur (Class D)
+1251,Amateur (Class D)
+1252,Amateur (Class D)
+1253,Amateur (Class D)
+1254,Amateur (Class D)
+1255,Amateur (Class D)
+1256,Amateur (Class D)
+1257,Amateur (Class D)
+1258,Amateur (Class D)
+1259,Amateur (Class D)
+1260,Amateur (Class D)
+1261,Amateur (Class D)
+1262,Amateur (Class D)
+1263,Amateur (Class D)
+1264,Amateur (Class D)
+1265,Amateur (Class D)
+1266,Amateur (Class D)
+1267,Amateur (Class D)
+1268,Amateur (Class D)
+1269,Amateur (Class D)
+1270,Amateur (Class D)
+1271,Amateur (Class D)
+1272,Amateur (Class D)
+1273,Amateur (Class D)
+1274,Amateur (Class D)
+1275,Amateur (Class D)
+1276,Amateur (Class D)
+1277,Amateur (Class D)
+1278,Amateur (Class D)
+1279,Amateur (Class D)
+1280,Amateur (Class D)
+1281,Amateur (Class D)
+1282,Amateur (Class D)
+1283,Amateur (Class D)
+1284,Amateur (Class D)
+1285,Amateur (Class D)
+1286,Amateur (Class D)
+1287,Amateur (Class D)
+1288,Amateur (Class D)
+1289,Amateur (Class D)
+1290,Amateur (Class D)
+1291,Amateur (Class D)
+1292,Amateur (Class D)
+1293,Amateur (Class D)
+1294,Amateur (Class D)
+1295,Amateur (Class D)
+1296,Amateur (Class D)
+1297,Amateur (Class D)
+1298,Amateur (Class D)
+1299,Amateur (Class D)
+1300,Amateur (Class D)
+1301,Amateur (Class D)
+1302,Amateur (Class D)
+1303,Amateur (Class D)
+1304,Amateur (Class D)
+1305,Amateur (Class D)
+1306,Amateur (Class D)
+1307,Amateur (Class D)
+1308,Amateur (Class D)
+1309,Amateur (Class D)
+1310,Amateur (Class D)
+1311,Amateur (Class D)
+1312,Amateur (Class D)
+1313,Amateur (Class D)
+1314,Amateur (Class D)
+1315,Amateur (Class D)
+1316,Amateur (Class D)
+1317,Amateur (Class D)
+1318,Amateur (Class D)
+1319,Amateur (Class D)
+1320,Amateur (Class D)
+1321,Amateur (Class D)
+1322,Amateur (Class D)
+1323,Amateur (Class D)
+1324,Amateur (Class D)
+1325,Amateur (Class D)
+1326,Amateur (Class D)
+1327,Amateur (Class D)
+1328,Amateur (Class D)
+1329,Amateur (Class D)
+1330,Amateur (Class D)
+1331,Amateur (Class D)
+1332,Amateur (Class D)
+1333,Amateur (Class D)
+1334,Amateur (Class D)
+1335,Amateur (Class D)
+1336,Amateur (Class D)
+1337,Amateur (Class D)
+1338,Amateur (Class D)
+1339,Amateur (Class D)
+1340,Amateur (Class D)
+1341,Amateur (Class D)
+1342,Amateur (Class D)
+1343,Amateur (Class D)
+1344,Amateur (Class D)
+1345,Amateur (Class D)
+1346,Amateur (Class D)
+1347,Amateur (Class D)
+1348,Amateur (Class D)
+1349,Amateur (Class D)
+1350,Amateur (Class D)
+1351,Amateur (Class D)
+1352,Amateur (Class D)
+1353,Amateur (Class D)
+1354,Amateur (Class D)
+1355,Amateur (Class D)
+1356,Amateur (Class D)
+1357,Amateur (Class D)
+1358,Amateur (Class D)
+1359,Amateur (Class D)
+1360,Amateur (Class D)
+1361,Amateur (Class D)
+1362,Amateur (Class D)
+1363,Amateur (Class D)
+1364,Amateur (Class D)
+1365,Amateur (Class D)
+1366,Amateur (Class D)
+1367,Amateur (Class D)
+1368,Amateur (Class D)
+1369,Amateur (Class D)
+1370,Amateur (Class D)
+1371,Amateur (Class D)
+1372,Amateur (Class D)
+1373,Amateur (Class D)
+1374,Amateur (Class D)
+1375,Amateur (Class D)
+1376,Amateur (Class D)
+1377,Amateur (Class D)
+1378,Amateur (Class D)
+1379,Amateur (Class D)
+1380,Amateur (Class D)
+1381,Amateur (Class D)
+1382,Amateur (Class D)
+1383,Amateur (Class D)
+1384,Amateur (Class D)
+1385,Amateur (Class D)
+1386,Amateur (Class D)
+1387,Amateur (Class D)
+1388,Amateur (Class D)
+1389,Amateur (Class D)
+1390,Amateur (Class D)
+1391,Amateur (Class D)
+1392,Amateur (Class D)
+1393,Amateur (Class D)
+1394,Amateur (Class D)
+1395,Amateur (Class D)
+1396,Amateur (Class D)
+1397,Amateur (Class D)
+1398,Amateur (Class D)
+1399,Amateur (Class D)
+1400,Amateur (Class C)
+1401,Amateur (Class C)
+1402,Amateur (Class C)
+1403,Amateur (Class C)
+1404,Amateur (Class C)
+1405,Amateur (Class C)
+1406,Amateur (Class C)
+1407,Amateur (Class C)
+1408,Amateur (Class C)
+1409,Amateur (Class C)
+1410,Amateur (Class C)
+1411,Amateur (Class C)
+1412,Amateur (Class C)
+1413,Amateur (Class C)
+1414,Amateur (Class C)
+1415,Amateur (Class C)
+1416,Amateur (Class C)
+1417,Amateur (Class C)
+1418,Amateur (Class C)
+1419,Amateur (Class C)
+1420,Amateur (Class C)
+1421,Amateur (Class C)
+1422,Amateur (Class C)
+1423,Amateur (Class C)
+1424,Amateur (Class C)
+1425,Amateur (Class C)
+1426,Amateur (Class C)
+1427,Amateur (Class C)
+1428,Amateur (Class C)
+1429,Amateur (Class C)
+1430,Amateur (Class C)
+1431,Amateur (Class C)
+1432,Amateur (Class C)
+1433,Amateur (Class C)
+1434,Amateur (Class C)
+1435,Amateur (Class C)
+1436,Amateur (Class C)
+1437,Amateur (Class C)
+1438,Amateur (Class C)
+1439,Amateur (Class C)
+1440,Amateur (Class C)
+1441,Amateur (Class C)
+1442,Amateur (Class C)
+1443,Amateur (Class C)
+1444,Amateur (Class C)
+1445,Amateur (Class C)
+1446,Amateur (Class C)
+1447,Amateur (Class C)
+1448,Amateur (Class C)
+1449,Amateur (Class C)
+1450,Amateur (Class C)
+1451,Amateur (Class C)
+1452,Amateur (Class C)
+1453,Amateur (Class C)
+1454,Amateur (Class C)
+1455,Amateur (Class C)
+1456,Amateur (Class C)
+1457,Amateur (Class C)
+1458,Amateur (Class C)
+1459,Amateur (Class C)
+1460,Amateur (Class C)
+1461,Amateur (Class C)
+1462,Amateur (Class C)
+1463,Amateur (Class C)
+1464,Amateur (Class C)
+1465,Amateur (Class C)
+1466,Amateur (Class C)
+1467,Amateur (Class C)
+1468,Amateur (Class C)
+1469,Amateur (Class C)
+1470,Amateur (Class C)
+1471,Amateur (Class C)
+1472,Amateur (Class C)
+1473,Amateur (Class C)
+1474,Amateur (Class C)
+1475,Amateur (Class C)
+1476,Amateur (Class C)
+1477,Amateur (Class C)
+1478,Amateur (Class C)
+1479,Amateur (Class C)
+1480,Amateur (Class C)
+1481,Amateur (Class C)
+1482,Amateur (Class C)
+1483,Amateur (Class C)
+1484,Amateur (Class C)
+1485,Amateur (Class C)
+1486,Amateur (Class C)
+1487,Amateur (Class C)
+1488,Amateur (Class C)
+1489,Amateur (Class C)
+1490,Amateur (Class C)
+1491,Amateur (Class C)
+1492,Amateur (Class C)
+1493,Amateur (Class C)
+1494,Amateur (Class C)
+1495,Amateur (Class C)
+1496,Amateur (Class C)
+1497,Amateur (Class C)
+1498,Amateur (Class C)
+1499,Amateur (Class C)
+1500,Amateur (Class C)
+1501,Amateur (Class C)
+1502,Amateur (Class C)
+1503,Amateur (Class C)
+1504,Amateur (Class C)
+1505,Amateur (Class C)
+1506,Amateur (Class C)
+1507,Amateur (Class C)
+1508,Amateur (Class C)
+1509,Amateur (Class C)
+1510,Amateur (Class C)
+1511,Amateur (Class C)
+1512,Amateur (Class C)
+1513,Amateur (Class C)
+1514,Amateur (Class C)
+1515,Amateur (Class C)
+1516,Amateur (Class C)
+1517,Amateur (Class C)
+1518,Amateur (Class C)
+1519,Amateur (Class C)
+1520,Amateur (Class C)
+1521,Amateur (Class C)
+1522,Amateur (Class C)
+1523,Amateur (Class C)
+1524,Amateur (Class C)
+1525,Amateur (Class C)
+1526,Amateur (Class C)
+1527,Amateur (Class C)
+1528,Amateur (Class C)
+1529,Amateur (Class C)
+1530,Amateur (Class C)
+1531,Amateur (Class C)
+1532,Amateur (Class C)
+1533,Amateur (Class C)
+1534,Amateur (Class C)
+1535,Amateur (Class C)
+1536,Amateur (Class C)
+1537,Amateur (Class C)
+1538,Amateur (Class C)
+1539,Amateur (Class C)
+1540,Amateur (Class C)
+1541,Amateur (Class C)
+1542,Amateur (Class C)
+1543,Amateur (Class C)
+1544,Amateur (Class C)
+1545,Amateur (Class C)
+1546,Amateur (Class C)
+1547,Amateur (Class C)
+1548,Amateur (Class C)
+1549,Amateur (Class C)
+1550,Amateur (Class C)
+1551,Amateur (Class C)
+1552,Amateur (Class C)
+1553,Amateur (Class C)
+1554,Amateur (Class C)
+1555,Amateur (Class C)
+1556,Amateur (Class C)
+1557,Amateur (Class C)
+1558,Amateur (Class C)
+1559,Amateur (Class C)
+1560,Amateur (Class C)
+1561,Amateur (Class C)
+1562,Amateur (Class C)
+1563,Amateur (Class C)
+1564,Amateur (Class C)
+1565,Amateur (Class C)
+1566,Amateur (Class C)
+1567,Amateur (Class C)
+1568,Amateur (Class C)
+1569,Amateur (Class C)
+1570,Amateur (Class C)
+1571,Amateur (Class C)
+1572,Amateur (Class C)
+1573,Amateur (Class C)
+1574,Amateur (Class C)
+1575,Amateur (Class C)
+1576,Amateur (Class C)
+1577,Amateur (Class C)
+1578,Amateur (Class C)
+1579,Amateur (Class C)
+1580,Amateur (Class C)
+1581,Amateur (Class C)
+1582,Amateur (Class C)
+1583,Amateur (Class C)
+1584,Amateur (Class C)
+1585,Amateur (Class C)
+1586,Amateur (Class C)
+1587,Amateur (Class C)
+1588,Amateur (Class C)
+1589,Amateur (Class C)
+1590,Amateur (Class C)
+1591,Amateur (Class C)
+1592,Amateur (Class C)
+1593,Amateur (Class C)
+1594,Amateur (Class C)
+1595,Amateur (Class C)
+1596,Amateur (Class C)
+1597,Amateur (Class C)
+1598,Amateur (Class C)
+1599,Amateur (Class C)
+1600,Amateur (Class B)
+1601,Amateur (Class B)
+1602,Amateur (Class B)
+1603,Amateur (Class B)
+1604,Amateur (Class B)
+1605,Amateur (Class B)
+1606,Amateur (Class B)
+1607,Amateur (Class B)
+1608,Amateur (Class B)
+1609,Amateur (Class B)
+1610,Amateur (Class B)
+1611,Amateur (Class B)
+1612,Amateur (Class B)
+1613,Amateur (Class B)
+1614,Amateur (Class B)
+1615,Amateur (Class B)
+1616,Amateur (Class B)
+1617,Amateur (Class B)
+1618,Amateur (Class B)
+1619,Amateur (Class B)
+1620,Amateur (Class B)
+1621,Amateur (Class B)
+1622,Amateur (Class B)
+1623,Amateur (Class B)
+1624,Amateur (Class B)
+1625,Amateur (Class B)
+1626,Amateur (Class B)
+1627,Amateur (Class B)
+1628,Amateur (Class B)
+1629,Amateur (Class B)
+1630,Amateur (Class B)
+1631,Amateur (Class B)
+1632,Amateur (Class B)
+1633,Amateur (Class B)
+1634,Amateur (Class B)
+1635,Amateur (Class B)
+1636,Amateur (Class B)
+1637,Amateur (Class B)
+1638,Amateur (Class B)
+1639,Amateur (Class B)
+1640,Amateur (Class B)
+1641,Amateur (Class B)
+1642,Amateur (Class B)
+1643,Amateur (Class B)
+1644,Amateur (Class B)
+1645,Amateur (Class B)
+1646,Amateur (Class B)
+1647,Amateur (Class B)
+1648,Amateur (Class B)
+1649,Amateur (Class B)
+1650,Amateur (Class B)
+1651,Amateur (Class B)
+1652,Amateur (Class B)
+1653,Amateur (Class B)
+1654,Amateur (Class B)
+1655,Amateur (Class B)
+1656,Amateur (Class B)
+1657,Amateur (Class B)
+1658,Amateur (Class B)
+1659,Amateur (Class B)
+1660,Amateur (Class B)
+1661,Amateur (Class B)
+1662,Amateur (Class B)
+1663,Amateur (Class B)
+1664,Amateur (Class B)
+1665,Amateur (Class B)
+1666,Amateur (Class B)
+1667,Amateur (Class B)
+1668,Amateur (Class B)
+1669,Amateur (Class B)
+1670,Amateur (Class B)
+1671,Amateur (Class B)
+1672,Amateur (Class B)
+1673,Amateur (Class B)
+1674,Amateur (Class B)
+1675,Amateur (Class B)
+1676,Amateur (Class B)
+1677,Amateur (Class B)
+1678,Amateur (Class B)
+1679,Amateur (Class B)
+1680,Amateur (Class B)
+1681,Amateur (Class B)
+1682,Amateur (Class B)
+1683,Amateur (Class B)
+1684,Amateur (Class B)
+1685,Amateur (Class B)
+1686,Amateur (Class B)
+1687,Amateur (Class B)
+1688,Amateur (Class B)
+1689,Amateur (Class B)
+1690,Amateur (Class B)
+1691,Amateur (Class B)
+1692,Amateur (Class B)
+1693,Amateur (Class B)
+1694,Amateur (Class B)
+1695,Amateur (Class B)
+1696,Amateur (Class B)
+1697,Amateur (Class B)
+1698,Amateur (Class B)
+1699,Amateur (Class B)
+1700,Amateur (Class B)
+1701,Amateur (Class B)
+1702,Amateur (Class B)
+1703,Amateur (Class B)
+1704,Amateur (Class B)
+1705,Amateur (Class B)
+1706,Amateur (Class B)
+1707,Amateur (Class B)
+1708,Amateur (Class B)
+1709,Amateur (Class B)
+1710,Amateur (Class B)
+1711,Amateur (Class B)
+1712,Amateur (Class B)
+1713,Amateur (Class B)
+1714,Amateur (Class B)
+1715,Amateur (Class B)
+1716,Amateur (Class B)
+1717,Amateur (Class B)
+1718,Amateur (Class B)
+1719,Amateur (Class B)
+1720,Amateur (Class B)
+1721,Amateur (Class B)
+1722,Amateur (Class B)
+1723,Amateur (Class B)
+1724,Amateur (Class B)
+1725,Amateur (Class B)
+1726,Amateur (Class B)
+1727,Amateur (Class B)
+1728,Amateur (Class B)
+1729,Amateur (Class B)
+1730,Amateur (Class B)
+1731,Amateur (Class B)
+1732,Amateur (Class B)
+1733,Amateur (Class B)
+1734,Amateur (Class B)
+1735,Amateur (Class B)
+1736,Amateur (Class B)
+1737,Amateur (Class B)
+1738,Amateur (Class B)
+1739,Amateur (Class B)
+1740,Amateur (Class B)
+1741,Amateur (Class B)
+1742,Amateur (Class B)
+1743,Amateur (Class B)
+1744,Amateur (Class B)
+1745,Amateur (Class B)
+1746,Amateur (Class B)
+1747,Amateur (Class B)
+1748,Amateur (Class B)
+1749,Amateur (Class B)
+1750,Amateur (Class B)
+1751,Amateur (Class B)
+1752,Amateur (Class B)
+1753,Amateur (Class B)
+1754,Amateur (Class B)
+1755,Amateur (Class B)
+1756,Amateur (Class B)
+1757,Amateur (Class B)
+1758,Amateur (Class B)
+1759,Amateur (Class B)
+1760,Amateur (Class B)
+1761,Amateur (Class B)
+1762,Amateur (Class B)
+1763,Amateur (Class B)
+1764,Amateur (Class B)
+1765,Amateur (Class B)
+1766,Amateur (Class B)
+1767,Amateur (Class B)
+1768,Amateur (Class B)
+1769,Amateur (Class B)
+1770,Amateur (Class B)
+1771,Amateur (Class B)
+1772,Amateur (Class B)
+1773,Amateur (Class B)
+1774,Amateur (Class B)
+1775,Amateur (Class B)
+1776,Amateur (Class B)
+1777,Amateur (Class B)
+1778,Amateur (Class B)
+1779,Amateur (Class B)
+1780,Amateur (Class B)
+1781,Amateur (Class B)
+1782,Amateur (Class B)
+1783,Amateur (Class B)
+1784,Amateur (Class B)
+1785,Amateur (Class B)
+1786,Amateur (Class B)
+1787,Amateur (Class B)
+1788,Amateur (Class B)
+1789,Amateur (Class B)
+1790,Amateur (Class B)
+1791,Amateur (Class B)
+1792,Amateur (Class B)
+1793,Amateur (Class B)
+1794,Amateur (Class B)
+1795,Amateur (Class B)
+1796,Amateur (Class B)
+1797,Amateur (Class B)
+1798,Amateur (Class B)
+1799,Amateur (Class B)
+1800,Amateur (Class A)
+1801,Amateur (Class A)
+1802,Amateur (Class A)
+1803,Amateur (Class A)
+1804,Amateur (Class A)
+1805,Amateur (Class A)
+1806,Amateur (Class A)
+1807,Amateur (Class A)
+1808,Amateur (Class A)
+1809,Amateur (Class A)
+1810,Amateur (Class A)
+1811,Amateur (Class A)
+1812,Amateur (Class A)
+1813,Amateur (Class A)
+1814,Amateur (Class A)
+1815,Amateur (Class A)
+1816,Amateur (Class A)
+1817,Amateur (Class A)
+1818,Amateur (Class A)
+1819,Amateur (Class A)
+1820,Amateur (Class A)
+1821,Amateur (Class A)
+1822,Amateur (Class A)
+1823,Amateur (Class A)
+1824,Amateur (Class A)
+1825,Amateur (Class A)
+1826,Amateur (Class A)
+1827,Amateur (Class A)
+1828,Amateur (Class A)
+1829,Amateur (Class A)
+1830,Amateur (Class A)
+1831,Amateur (Class A)
+1832,Amateur (Class A)
+1833,Amateur (Class A)
+1834,Amateur (Class A)
+1835,Amateur (Class A)
+1836,Amateur (Class A)
+1837,Amateur (Class A)
+1838,Amateur (Class A)
+1839,Amateur (Class A)
+1840,Amateur (Class A)
+1841,Amateur (Class A)
+1842,Amateur (Class A)
+1843,Amateur (Class A)
+1844,Amateur (Class A)
+1845,Amateur (Class A)
+1846,Amateur (Class A)
+1847,Amateur (Class A)
+1848,Amateur (Class A)
+1849,Amateur (Class A)
+1850,Amateur (Class A)
+1851,Amateur (Class A)
+1852,Amateur (Class A)
+1853,Amateur (Class A)
+1854,Amateur (Class A)
+1855,Amateur (Class A)
+1856,Amateur (Class A)
+1857,Amateur (Class A)
+1858,Amateur (Class A)
+1859,Amateur (Class A)
+1860,Amateur (Class A)
+1861,Amateur (Class A)
+1862,Amateur (Class A)
+1863,Amateur (Class A)
+1864,Amateur (Class A)
+1865,Amateur (Class A)
+1866,Amateur (Class A)
+1867,Amateur (Class A)
+1868,Amateur (Class A)
+1869,Amateur (Class A)
+1870,Amateur (Class A)
+1871,Amateur (Class A)
+1872,Amateur (Class A)
+1873,Amateur (Class A)
+1874,Amateur (Class A)
+1875,Amateur (Class A)
+1876,Amateur (Class A)
+1877,Amateur (Class A)
+1878,Amateur (Class A)
+1879,Amateur (Class A)
+1880,Amateur (Class A)
+1881,Amateur (Class A)
+1882,Amateur (Class A)
+1883,Amateur (Class A)
+1884,Amateur (Class A)
+1885,Amateur (Class A)
+1886,Amateur (Class A)
+1887,Amateur (Class A)
+1888,Amateur (Class A)
+1889,Amateur (Class A)
+1890,Amateur (Class A)
+1891,Amateur (Class A)
+1892,Amateur (Class A)
+1893,Amateur (Class A)
+1894,Amateur (Class A)
+1895,Amateur (Class A)
+1896,Amateur (Class A)
+1897,Amateur (Class A)
+1898,Amateur (Class A)
+1899,Amateur (Class A)
+1900,Amateur (Class A)
+1901,Amateur (Class A)
+1902,Amateur (Class A)
+1903,Amateur (Class A)
+1904,Amateur (Class A)
+1905,Amateur (Class A)
+1906,Amateur (Class A)
+1907,Amateur (Class A)
+1908,Amateur (Class A)
+1909,Amateur (Class A)
+1910,Amateur (Class A)
+1911,Amateur (Class A)
+1912,Amateur (Class A)
+1913,Amateur (Class A)
+1914,Amateur (Class A)
+1915,Amateur (Class A)
+1916,Amateur (Class A)
+1917,Amateur (Class A)
+1918,Amateur (Class A)
+1919,Amateur (Class A)
+1920,Amateur (Class A)
+1921,Amateur (Class A)
+1922,Amateur (Class A)
+1923,Amateur (Class A)
+1924,Amateur (Class A)
+1925,Amateur (Class A)
+1926,Amateur (Class A)
+1927,Amateur (Class A)
+1928,Amateur (Class A)
+1929,Amateur (Class A)
+1930,Amateur (Class A)
+1931,Amateur (Class A)
+1932,Amateur (Class A)
+1933,Amateur (Class A)
+1934,Amateur (Class A)
+1935,Amateur (Class A)
+1936,Amateur (Class A)
+1937,Amateur (Class A)
+1938,Amateur (Class A)
+1939,Amateur (Class A)
+1940,Amateur (Class A)
+1941,Amateur (Class A)
+1942,Amateur (Class A)
+1943,Amateur (Class A)
+1944,Amateur (Class A)
+1945,Amateur (Class A)
+1946,Amateur (Class A)
+1947,Amateur (Class A)
+1948,Amateur (Class A)
+1949,Amateur (Class A)
+1950,Amateur (Class A)
+1951,Amateur (Class A)
+1952,Amateur (Class A)
+1953,Amateur (Class A)
+1954,Amateur (Class A)
+1955,Amateur (Class A)
+1956,Amateur (Class A)
+1957,Amateur (Class A)
+1958,Amateur (Class A)
+1959,Amateur (Class A)
+1960,Amateur (Class A)
+1961,Amateur (Class A)
+1962,Amateur (Class A)
+1963,Amateur (Class A)
+1964,Amateur (Class A)
+1965,Amateur (Class A)
+1966,Amateur (Class A)
+1967,Amateur (Class A)
+1968,Amateur (Class A)
+1969,Amateur (Class A)
+1970,Amateur (Class A)
+1971,Amateur (Class A)
+1972,Amateur (Class A)
+1973,Amateur (Class A)
+1974,Amateur (Class A)
+1975,Amateur (Class A)
+1976,Amateur (Class A)
+1977,Amateur (Class A)
+1978,Amateur (Class A)
+1979,Amateur (Class A)
+1980,Amateur (Class A)
+1981,Amateur (Class A)
+1982,Amateur (Class A)
+1983,Amateur (Class A)
+1984,Amateur (Class A)
+1985,Amateur (Class A)
+1986,Amateur (Class A)
+1987,Amateur (Class A)
+1988,Amateur (Class A)
+1989,Amateur (Class A)
+1990,Amateur (Class A)
+1991,Amateur (Class A)
+1992,Amateur (Class A)
+1993,Amateur (Class A)
+1994,Amateur (Class A)
+1995,Amateur (Class A)
+1996,Amateur (Class A)
+1997,Amateur (Class A)
+1998,Amateur (Class A)
+1999,Amateur (Class A)
+2000,Master (Candidate) (CM)
+2001,Master (Candidate) (CM)
+2002,Master (Candidate) (CM)
+2003,Master (Candidate) (CM)
+2004,Master (Candidate) (CM)
+2005,Master (Candidate) (CM)
+2006,Master (Candidate) (CM)
+2007,Master (Candidate) (CM)
+2008,Master (Candidate) (CM)
+2009,Master (Candidate) (CM)
+2010,Master (Candidate) (CM)
+2011,Master (Candidate) (CM)
+2012,Master (Candidate) (CM)
+2013,Master (Candidate) (CM)
+2014,Master (Candidate) (CM)
+2015,Master (Candidate) (CM)
+2016,Master (Candidate) (CM)
+2017,Master (Candidate) (CM)
+2018,Master (Candidate) (CM)
+2019,Master (Candidate) (CM)
+2020,Master (Candidate) (CM)
+2021,Master (Candidate) (CM)
+2022,Master (Candidate) (CM)
+2023,Master (Candidate) (CM)
+2024,Master (Candidate) (CM)
+2025,Master (Candidate) (CM)
+2026,Master (Candidate) (CM)
+2027,Master (Candidate) (CM)
+2028,Master (Candidate) (CM)
+2029,Master (Candidate) (CM)
+2030,Master (Candidate) (CM)
+2031,Master (Candidate) (CM)
+2032,Master (Candidate) (CM)
+2033,Master (Candidate) (CM)
+2034,Master (Candidate) (CM)
+2035,Master (Candidate) (CM)
+2036,Master (Candidate) (CM)
+2037,Master (Candidate) (CM)
+2038,Master (Candidate) (CM)
+2039,Master (Candidate) (CM)
+2040,Master (Candidate) (CM)
+2041,Master (Candidate) (CM)
+2042,Master (Candidate) (CM)
+2043,Master (Candidate) (CM)
+2044,Master (Candidate) (CM)
+2045,Master (Candidate) (CM)
+2046,Master (Candidate) (CM)
+2047,Master (Candidate) (CM)
+2048,Master (Candidate) (CM)
+2049,Master (Candidate) (CM)
+2050,Master (Candidate) (CM)
+2051,Master (Candidate) (CM)
+2052,Master (Candidate) (CM)
+2053,Master (Candidate) (CM)
+2054,Master (Candidate) (CM)
+2055,Master (Candidate) (CM)
+2056,Master (Candidate) (CM)
+2057,Master (Candidate) (CM)
+2058,Master (Candidate) (CM)
+2059,Master (Candidate) (CM)
+2060,Master (Candidate) (CM)
+2061,Master (Candidate) (CM)
+2062,Master (Candidate) (CM)
+2063,Master (Candidate) (CM)
+2064,Master (Candidate) (CM)
+2065,Master (Candidate) (CM)
+2066,Master (Candidate) (CM)
+2067,Master (Candidate) (CM)
+2068,Master (Candidate) (CM)
+2069,Master (Candidate) (CM)
+2070,Master (Candidate) (CM)
+2071,Master (Candidate) (CM)
+2072,Master (Candidate) (CM)
+2073,Master (Candidate) (CM)
+2074,Master (Candidate) (CM)
+2075,Master (Candidate) (CM)
+2076,Master (Candidate) (CM)
+2077,Master (Candidate) (CM)
+2078,Master (Candidate) (CM)
+2079,Master (Candidate) (CM)
+2080,Master (Candidate) (CM)
+2081,Master (Candidate) (CM)
+2082,Master (Candidate) (CM)
+2083,Master (Candidate) (CM)
+2084,Master (Candidate) (CM)
+2085,Master (Candidate) (CM)
+2086,Master (Candidate) (CM)
+2087,Master (Candidate) (CM)
+2088,Master (Candidate) (CM)
+2089,Master (Candidate) (CM)
+2090,Master (Candidate) (CM)
+2091,Master (Candidate) (CM)
+2092,Master (Candidate) (CM)
+2093,Master (Candidate) (CM)
+2094,Master (Candidate) (CM)
+2095,Master (Candidate) (CM)
+2096,Master (Candidate) (CM)
+2097,Master (Candidate) (CM)
+2098,Master (Candidate) (CM)
+2099,Master (Candidate) (CM)
+2100,Master (Candidate) (CM)
+2101,Master (Candidate) (CM)
+2102,Master (Candidate) (CM)
+2103,Master (Candidate) (CM)
+2104,Master (Candidate) (CM)
+2105,Master (Candidate) (CM)
+2106,Master (Candidate) (CM)
+2107,Master (Candidate) (CM)
+2108,Master (Candidate) (CM)
+2109,Master (Candidate) (CM)
+2110,Master (Candidate) (CM)
+2111,Master (Candidate) (CM)
+2112,Master (Candidate) (CM)
+2113,Master (Candidate) (CM)
+2114,Master (Candidate) (CM)
+2115,Master (Candidate) (CM)
+2116,Master (Candidate) (CM)
+2117,Master (Candidate) (CM)
+2118,Master (Candidate) (CM)
+2119,Master (Candidate) (CM)
+2120,Master (Candidate) (CM)
+2121,Master (Candidate) (CM)
+2122,Master (Candidate) (CM)
+2123,Master (Candidate) (CM)
+2124,Master (Candidate) (CM)
+2125,Master (Candidate) (CM)
+2126,Master (Candidate) (CM)
+2127,Master (Candidate) (CM)
+2128,Master (Candidate) (CM)
+2129,Master (Candidate) (CM)
+2130,Master (Candidate) (CM)
+2131,Master (Candidate) (CM)
+2132,Master (Candidate) (CM)
+2133,Master (Candidate) (CM)
+2134,Master (Candidate) (CM)
+2135,Master (Candidate) (CM)
+2136,Master (Candidate) (CM)
+2137,Master (Candidate) (CM)
+2138,Master (Candidate) (CM)
+2139,Master (Candidate) (CM)
+2140,Master (Candidate) (CM)
+2141,Master (Candidate) (CM)
+2142,Master (Candidate) (CM)
+2143,Master (Candidate) (CM)
+2144,Master (Candidate) (CM)
+2145,Master (Candidate) (CM)
+2146,Master (Candidate) (CM)
+2147,Master (Candidate) (CM)
+2148,Master (Candidate) (CM)
+2149,Master (Candidate) (CM)
+2150,Master (Candidate) (CM)
+2151,Master (Candidate) (CM)
+2152,Master (Candidate) (CM)
+2153,Master (Candidate) (CM)
+2154,Master (Candidate) (CM)
+2155,Master (Candidate) (CM)
+2156,Master (Candidate) (CM)
+2157,Master (Candidate) (CM)
+2158,Master (Candidate) (CM)
+2159,Master (Candidate) (CM)
+2160,Master (Candidate) (CM)
+2161,Master (Candidate) (CM)
+2162,Master (Candidate) (CM)
+2163,Master (Candidate) (CM)
+2164,Master (Candidate) (CM)
+2165,Master (Candidate) (CM)
+2166,Master (Candidate) (CM)
+2167,Master (Candidate) (CM)
+2168,Master (Candidate) (CM)
+2169,Master (Candidate) (CM)
+2170,Master (Candidate) (CM)
+2171,Master (Candidate) (CM)
+2172,Master (Candidate) (CM)
+2173,Master (Candidate) (CM)
+2174,Master (Candidate) (CM)
+2175,Master (Candidate) (CM)
+2176,Master (Candidate) (CM)
+2177,Master (Candidate) (CM)
+2178,Master (Candidate) (CM)
+2179,Master (Candidate) (CM)
+2180,Master (Candidate) (CM)
+2181,Master (Candidate) (CM)
+2182,Master (Candidate) (CM)
+2183,Master (Candidate) (CM)
+2184,Master (Candidate) (CM)
+2185,Master (Candidate) (CM)
+2186,Master (Candidate) (CM)
+2187,Master (Candidate) (CM)
+2188,Master (Candidate) (CM)
+2189,Master (Candidate) (CM)
+2190,Master (Candidate) (CM)
+2191,Master (Candidate) (CM)
+2192,Master (Candidate) (CM)
+2193,Master (Candidate) (CM)
+2194,Master (Candidate) (CM)
+2195,Master (Candidate) (CM)
+2196,Master (Candidate) (CM)
+2197,Master (Candidate) (CM)
+2198,Master (Candidate) (CM)
+2199,Master (Candidate) (CM)
+2200,Master (National) (NM)
+2201,Master (National) (NM)
+2202,Master (National) (NM)
+2203,Master (National) (NM)
+2204,Master (National) (NM)
+2205,Master (National) (NM)
+2206,Master (National) (NM)
+2207,Master (National) (NM)
+2208,Master (National) (NM)
+2209,Master (National) (NM)
+2210,Master (National) (NM)
+2211,Master (National) (NM)
+2212,Master (National) (NM)
+2213,Master (National) (NM)
+2214,Master (National) (NM)
+2215,Master (National) (NM)
+2216,Master (National) (NM)
+2217,Master (National) (NM)
+2218,Master (National) (NM)
+2219,Master (National) (NM)
+2220,Master (National) (NM)
+2221,Master (National) (NM)
+2222,Master (National) (NM)
+2223,Master (National) (NM)
+2224,Master (National) (NM)
+2225,Master (National) (NM)
+2226,Master (National) (NM)
+2227,Master (National) (NM)
+2228,Master (National) (NM)
+2229,Master (National) (NM)
+2230,Master (National) (NM)
+2231,Master (National) (NM)
+2232,Master (National) (NM)
+2233,Master (National) (NM)
+2234,Master (National) (NM)
+2235,Master (National) (NM)
+2236,Master (National) (NM)
+2237,Master (National) (NM)
+2238,Master (National) (NM)
+2239,Master (National) (NM)
+2240,Master (National) (NM)
+2241,Master (National) (NM)
+2242,Master (National) (NM)
+2243,Master (National) (NM)
+2244,Master (National) (NM)
+2245,Master (National) (NM)
+2246,Master (National) (NM)
+2247,Master (National) (NM)
+2248,Master (National) (NM)
+2249,Master (National) (NM)
+2250,Master (National) (NM)
+2251,Master (National) (NM)
+2252,Master (National) (NM)
+2253,Master (National) (NM)
+2254,Master (National) (NM)
+2255,Master (National) (NM)
+2256,Master (National) (NM)
+2257,Master (National) (NM)
+2258,Master (National) (NM)
+2259,Master (National) (NM)
+2260,Master (National) (NM)
+2261,Master (National) (NM)
+2262,Master (National) (NM)
+2263,Master (National) (NM)
+2264,Master (National) (NM)
+2265,Master (National) (NM)
+2266,Master (National) (NM)
+2267,Master (National) (NM)
+2268,Master (National) (NM)
+2269,Master (National) (NM)
+2270,Master (National) (NM)
+2271,Master (National) (NM)
+2272,Master (National) (NM)
+2273,Master (National) (NM)
+2274,Master (National) (NM)
+2275,Master (National) (NM)
+2276,Master (National) (NM)
+2277,Master (National) (NM)
+2278,Master (National) (NM)
+2279,Master (National) (NM)
+2280,Master (National) (NM)
+2281,Master (National) (NM)
+2282,Master (National) (NM)
+2283,Master (National) (NM)
+2284,Master (National) (NM)
+2285,Master (National) (NM)
+2286,Master (National) (NM)
+2287,Master (National) (NM)
+2288,Master (National) (NM)
+2289,Master (National) (NM)
+2290,Master (National) (NM)
+2291,Master (National) (NM)
+2292,Master (National) (NM)
+2293,Master (National) (NM)
+2294,Master (National) (NM)
+2295,Master (National) (NM)
+2296,Master (National) (NM)
+2297,Master (National) (NM)
+2298,Master (National) (NM)
+2299,Master (National) (NM)
+2300,Master (FIDE) (FM)
+2301,Master (FIDE) (FM)
+2302,Master (FIDE) (FM)
+2303,Master (FIDE) (FM)
+2304,Master (FIDE) (FM)
+2305,Master (FIDE) (FM)
+2306,Master (FIDE) (FM)
+2307,Master (FIDE) (FM)
+2308,Master (FIDE) (FM)
+2309,Master (FIDE) (FM)
+2310,Master (FIDE) (FM)
+2311,Master (FIDE) (FM)
+2312,Master (FIDE) (FM)
+2313,Master (FIDE) (FM)
+2314,Master (FIDE) (FM)
+2315,Master (FIDE) (FM)
+2316,Master (FIDE) (FM)
+2317,Master (FIDE) (FM)
+2318,Master (FIDE) (FM)
+2319,Master (FIDE) (FM)
+2320,Master (FIDE) (FM)
+2321,Master (FIDE) (FM)
+2322,Master (FIDE) (FM)
+2323,Master (FIDE) (FM)
+2324,Master (FIDE) (FM)
+2325,Master (FIDE) (FM)
+2326,Master (FIDE) (FM)
+2327,Master (FIDE) (FM)
+2328,Master (FIDE) (FM)
+2329,Master (FIDE) (FM)
+2330,Master (FIDE) (FM)
+2331,Master (FIDE) (FM)
+2332,Master (FIDE) (FM)
+2333,Master (FIDE) (FM)
+2334,Master (FIDE) (FM)
+2335,Master (FIDE) (FM)
+2336,Master (FIDE) (FM)
+2337,Master (FIDE) (FM)
+2338,Master (FIDE) (FM)
+2339,Master (FIDE) (FM)
+2340,Master (FIDE) (FM)
+2341,Master (FIDE) (FM)
+2342,Master (FIDE) (FM)
+2343,Master (FIDE) (FM)
+2344,Master (FIDE) (FM)
+2345,Master (FIDE) (FM)
+2346,Master (FIDE) (FM)
+2347,Master (FIDE) (FM)
+2348,Master (FIDE) (FM)
+2349,Master (FIDE) (FM)
+2350,Master (FIDE) (FM)
+2351,Master (FIDE) (FM)
+2352,Master (FIDE) (FM)
+2353,Master (FIDE) (FM)
+2354,Master (FIDE) (FM)
+2355,Master (FIDE) (FM)
+2356,Master (FIDE) (FM)
+2357,Master (FIDE) (FM)
+2358,Master (FIDE) (FM)
+2359,Master (FIDE) (FM)
+2360,Master (FIDE) (FM)
+2361,Master (FIDE) (FM)
+2362,Master (FIDE) (FM)
+2363,Master (FIDE) (FM)
+2364,Master (FIDE) (FM)
+2365,Master (FIDE) (FM)
+2366,Master (FIDE) (FM)
+2367,Master (FIDE) (FM)
+2368,Master (FIDE) (FM)
+2369,Master (FIDE) (FM)
+2370,Master (FIDE) (FM)
+2371,Master (FIDE) (FM)
+2372,Master (FIDE) (FM)
+2373,Master (FIDE) (FM)
+2374,Master (FIDE) (FM)
+2375,Master (FIDE) (FM)
+2376,Master (FIDE) (FM)
+2377,Master (FIDE) (FM)
+2378,Master (FIDE) (FM)
+2379,Master (FIDE) (FM)
+2380,Master (FIDE) (FM)
+2381,Master (FIDE) (FM)
+2382,Master (FIDE) (FM)
+2383,Master (FIDE) (FM)
+2384,Master (FIDE) (FM)
+2385,Master (FIDE) (FM)
+2386,Master (FIDE) (FM)
+2387,Master (FIDE) (FM)
+2388,Master (FIDE) (FM)
+2389,Master (FIDE) (FM)
+2390,Master (FIDE) (FM)
+2391,Master (FIDE) (FM)
+2392,Master (FIDE) (FM)
+2393,Master (FIDE) (FM)
+2394,Master (FIDE) (FM)
+2395,Master (FIDE) (FM)
+2396,Master (FIDE) (FM)
+2397,Master (FIDE) (FM)
+2398,Master (FIDE) (FM)
+2399,Master (FIDE) (FM)
+2400,Master (International) (IM)
+2401,Master (International) (IM)
+2402,Master (International) (IM)
+2403,Master (International) (IM)
+2404,Master (International) (IM)
+2405,Master (International) (IM)
+2406,Master (International) (IM)
+2407,Master (International) (IM)
+2408,Master (International) (IM)
+2409,Master (International) (IM)
+2410,Master (International) (IM)
+2411,Master (International) (IM)
+2412,Master (International) (IM)
+2413,Master (International) (IM)
+2414,Master (International) (IM)
+2415,Master (International) (IM)
+2416,Master (International) (IM)
+2417,Master (International) (IM)
+2418,Master (International) (IM)
+2419,Master (International) (IM)
+2420,Master (International) (IM)
+2421,Master (International) (IM)
+2422,Master (International) (IM)
+2423,Master (International) (IM)
+2424,Master (International) (IM)
+2425,Master (International) (IM)
+2426,Master (International) (IM)
+2427,Master (International) (IM)
+2428,Master (International) (IM)
+2429,Master (International) (IM)
+2430,Master (International) (IM)
+2431,Master (International) (IM)
+2432,Master (International) (IM)
+2433,Master (International) (IM)
+2434,Master (International) (IM)
+2435,Master (International) (IM)
+2436,Master (International) (IM)
+2437,Master (International) (IM)
+2438,Master (International) (IM)
+2439,Master (International) (IM)
+2440,Master (International) (IM)
+2441,Master (International) (IM)
+2442,Master (International) (IM)
+2443,Master (International) (IM)
+2444,Master (International) (IM)
+2445,Master (International) (IM)
+2446,Master (International) (IM)
+2447,Master (International) (IM)
+2448,Master (International) (IM)
+2449,Master (International) (IM)
+2450,Master (International) (IM)
+2451,Master (International) (IM)
+2452,Master (International) (IM)
+2453,Master (International) (IM)
+2454,Master (International) (IM)
+2455,Master (International) (IM)
+2456,Master (International) (IM)
+2457,Master (International) (IM)
+2458,Master (International) (IM)
+2459,Master (International) (IM)
+2460,Master (International) (IM)
+2461,Master (International) (IM)
+2462,Master (International) (IM)
+2463,Master (International) (IM)
+2464,Master (International) (IM)
+2465,Master (International) (IM)
+2466,Master (International) (IM)
+2467,Master (International) (IM)
+2468,Master (International) (IM)
+2469,Master (International) (IM)
+2470,Master (International) (IM)
+2471,Master (International) (IM)
+2472,Master (International) (IM)
+2473,Master (International) (IM)
+2474,Master (International) (IM)
+2475,Master (International) (IM)
+2476,Master (International) (IM)
+2477,Master (International) (IM)
+2478,Master (International) (IM)
+2479,Master (International) (IM)
+2480,Master (International) (IM)
+2481,Master (International) (IM)
+2482,Master (International) (IM)
+2483,Master (International) (IM)
+2484,Master (International) (IM)
+2485,Master (International) (IM)
+2486,Master (International) (IM)
+2487,Master (International) (IM)
+2488,Master (International) (IM)
+2489,Master (International) (IM)
+2490,Master (International) (IM)
+2491,Master (International) (IM)
+2492,Master (International) (IM)
+2493,Master (International) (IM)
+2494,Master (International) (IM)
+2495,Master (International) (IM)
+2496,Master (International) (IM)
+2497,Master (International) (IM)
+2498,Master (International) (IM)
+2499,Master (International) (IM)
+2500,Grandmaster (GM)
+2501,Grandmaster (GM)
+2502,Grandmaster (GM)
+2503,Grandmaster (GM)
+2504,Grandmaster (GM)
+2505,Grandmaster (GM)
+2506,Grandmaster (GM)
+2507,Grandmaster (GM)
+2508,Grandmaster (GM)
+2509,Grandmaster (GM)
+2510,Grandmaster (GM)
+2511,Grandmaster (GM)
+2512,Grandmaster (GM)
+2513,Grandmaster (GM)
+2514,Grandmaster (GM)
+2515,Grandmaster (GM)
+2516,Grandmaster (GM)
+2517,Grandmaster (GM)
+2518,Grandmaster (GM)
+2519,Grandmaster (GM)
+2520,Grandmaster (GM)
+2521,Grandmaster (GM)
+2522,Grandmaster (GM)
+2523,Grandmaster (GM)
+2524,Grandmaster (GM)
+2525,Grandmaster (GM)
+2526,Grandmaster (GM)
+2527,Grandmaster (GM)
+2528,Grandmaster (GM)
+2529,Grandmaster (GM)
+2530,Grandmaster (GM)
+2531,Grandmaster (GM)
+2532,Grandmaster (GM)
+2533,Grandmaster (GM)
+2534,Grandmaster (GM)
+2535,Grandmaster (GM)
+2536,Grandmaster (GM)
+2537,Grandmaster (GM)
+2538,Grandmaster (GM)
+2539,Grandmaster (GM)
+2540,Grandmaster (GM)
+2541,Grandmaster (GM)
+2542,Grandmaster (GM)
+2543,Grandmaster (GM)
+2544,Grandmaster (GM)
+2545,Grandmaster (GM)
+2546,Grandmaster (GM)
+2547,Grandmaster (GM)
+2548,Grandmaster (GM)
+2549,Grandmaster (GM)
+2550,Grandmaster (GM)
+2551,Grandmaster (GM)
+2552,Grandmaster (GM)
+2553,Grandmaster (GM)
+2554,Grandmaster (GM)
+2555,Grandmaster (GM)
+2556,Grandmaster (GM)
+2557,Grandmaster (GM)
+2558,Grandmaster (GM)
+2559,Grandmaster (GM)
+2560,Grandmaster (GM)
+2561,Grandmaster (GM)
+2562,Grandmaster (GM)
+2563,Grandmaster (GM)
+2564,Grandmaster (GM)
+2565,Grandmaster (GM)
+2566,Grandmaster (GM)
+2567,Grandmaster (GM)
+2568,Grandmaster (GM)
+2569,Grandmaster (GM)
+2570,Grandmaster (GM)
+2571,Grandmaster (GM)
+2572,Grandmaster (GM)
+2573,Grandmaster (GM)
+2574,Grandmaster (GM)
+2575,Grandmaster (GM)
+2576,Grandmaster (GM)
+2577,Grandmaster (GM)
+2578,Grandmaster (GM)
+2579,Grandmaster (GM)
+2580,Grandmaster (GM)
+2581,Grandmaster (GM)
+2582,Grandmaster (GM)
+2583,Grandmaster (GM)
+2584,Grandmaster (GM)
+2585,Grandmaster (GM)
+2586,Grandmaster (GM)
+2587,Grandmaster (GM)
+2588,Grandmaster (GM)
+2589,Grandmaster (GM)
+2590,Grandmaster (GM)
+2591,Grandmaster (GM)
+2592,Grandmaster (GM)
+2593,Grandmaster (GM)
+2594,Grandmaster (GM)
+2595,Grandmaster (GM)
+2596,Grandmaster (GM)
+2597,Grandmaster (GM)
+2598,Grandmaster (GM)
+2599,Grandmaster (GM)
+2600,Grandmaster (GM)
+2601,Grandmaster (GM)
+2602,Grandmaster (GM)
+2603,Grandmaster (GM)
+2604,Grandmaster (GM)
+2605,Grandmaster (GM)
+2606,Grandmaster (GM)
+2607,Grandmaster (GM)
+2608,Grandmaster (GM)
+2609,Grandmaster (GM)
+2610,Grandmaster (GM)
+2611,Grandmaster (GM)
+2612,Grandmaster (GM)
+2613,Grandmaster (GM)
+2614,Grandmaster (GM)
+2615,Grandmaster (GM)
+2616,Grandmaster (GM)
+2617,Grandmaster (GM)
+2618,Grandmaster (GM)
+2619,Grandmaster (GM)
+2620,Grandmaster (GM)
+2621,Grandmaster (GM)
+2622,Grandmaster (GM)
+2623,Grandmaster (GM)
+2624,Grandmaster (GM)
+2625,Grandmaster (GM)
+2626,Grandmaster (GM)
+2627,Grandmaster (GM)
+2628,Grandmaster (GM)
+2629,Grandmaster (GM)
+2630,Grandmaster (GM)
+2631,Grandmaster (GM)
+2632,Grandmaster (GM)
+2633,Grandmaster (GM)
+2634,Grandmaster (GM)
+2635,Grandmaster (GM)
+2636,Grandmaster (GM)
+2637,Grandmaster (GM)
+2638,Grandmaster (GM)
+2639,Grandmaster (GM)
+2640,Grandmaster (GM)
+2641,Grandmaster (GM)
+2642,Grandmaster (GM)
+2643,Grandmaster (GM)
+2644,Grandmaster (GM)
+2645,Grandmaster (GM)
+2646,Grandmaster (GM)
+2647,Grandmaster (GM)
+2648,Grandmaster (GM)
+2649,Grandmaster (GM)
+2650,Grandmaster (GM)
+2651,Grandmaster (GM)
+2652,Grandmaster (GM)
+2653,Grandmaster (GM)
+2654,Grandmaster (GM)
+2655,Grandmaster (GM)
+2656,Grandmaster (GM)
+2657,Grandmaster (GM)
+2658,Grandmaster (GM)
+2659,Grandmaster (GM)
+2660,Grandmaster (GM)
+2661,Grandmaster (GM)
+2662,Grandmaster (GM)
+2663,Grandmaster (GM)
+2664,Grandmaster (GM)
+2665,Grandmaster (GM)
+2666,Grandmaster (GM)
+2667,Grandmaster (GM)
+2668,Grandmaster (GM)
+2669,Grandmaster (GM)
+2670,Grandmaster (GM)
+2671,Grandmaster (GM)
+2672,Grandmaster (GM)
+2673,Grandmaster (GM)
+2674,Grandmaster (GM)
+2675,Grandmaster (GM)
+2676,Grandmaster (GM)
+2677,Grandmaster (GM)
+2678,Grandmaster (GM)
+2679,Grandmaster (GM)
+2680,Grandmaster (GM)
+2681,Grandmaster (GM)
+2682,Grandmaster (GM)
+2683,Grandmaster (GM)
+2684,Grandmaster (GM)
+2685,Grandmaster (GM)
+2686,Grandmaster (GM)
+2687,Grandmaster (GM)
+2688,Grandmaster (GM)
+2689,Grandmaster (GM)
+2690,Grandmaster (GM)
+2691,Grandmaster (GM)
+2692,Grandmaster (GM)
+2693,Grandmaster (GM)
+2694,Grandmaster (GM)
+2695,Grandmaster (GM)
+2696,Grandmaster (GM)
+2697,Grandmaster (GM)
+2698,Grandmaster (GM)
+2699,Grandmaster (GM)
+2700,Grandmaster (GM)
+2701,Grandmaster (GM)
+2702,Grandmaster (GM)
+2703,Grandmaster (GM)
+2704,Grandmaster (GM)
+2705,Grandmaster (GM)
+2706,Grandmaster (GM)
+2707,Grandmaster (GM)
+2708,Grandmaster (GM)
+2709,Grandmaster (GM)
+2710,Grandmaster (GM)
+2711,Grandmaster (GM)
+2712,Grandmaster (GM)
+2713,Grandmaster (GM)
+2714,Grandmaster (GM)
+2715,Grandmaster (GM)
+2716,Grandmaster (GM)
+2717,Grandmaster (GM)
+2718,Grandmaster (GM)
+2719,Grandmaster (GM)
+2720,Grandmaster (GM)
+2721,Grandmaster (GM)
+2722,Grandmaster (GM)
+2723,Grandmaster (GM)
+2724,Grandmaster (GM)
+2725,Grandmaster (GM)
+2726,Grandmaster (GM)
+2727,Grandmaster (GM)
+2728,Grandmaster (GM)
+2729,Grandmaster (GM)
+2730,Grandmaster (GM)
+2731,Grandmaster (GM)
+2732,Grandmaster (GM)
+2733,Grandmaster (GM)
+2734,Grandmaster (GM)
+2735,Grandmaster (GM)
+2736,Grandmaster (GM)
+2737,Grandmaster (GM)
+2738,Grandmaster (GM)
+2739,Grandmaster (GM)
+2740,Grandmaster (GM)
+2741,Grandmaster (GM)
+2742,Grandmaster (GM)
+2743,Grandmaster (GM)
+2744,Grandmaster (GM)
+2745,Grandmaster (GM)
+2746,Grandmaster (GM)
+2747,Grandmaster (GM)
+2748,Grandmaster (GM)
+2749,Grandmaster (GM)
+2750,Grandmaster (GM)
+2751,Grandmaster (GM)
+2752,Grandmaster (GM)
+2753,Grandmaster (GM)
+2754,Grandmaster (GM)
+2755,Grandmaster (GM)
+2756,Grandmaster (GM)
+2757,Grandmaster (GM)
+2758,Grandmaster (GM)
+2759,Grandmaster (GM)
+2760,Grandmaster (GM)
+2761,Grandmaster (GM)
+2762,Grandmaster (GM)
+2763,Grandmaster (GM)
+2764,Grandmaster (GM)
+2765,Grandmaster (GM)
+2766,Grandmaster (GM)
+2767,Grandmaster (GM)
+2768,Grandmaster (GM)
+2769,Grandmaster (GM)
+2770,Grandmaster (GM)
+2771,Grandmaster (GM)
+2772,Grandmaster (GM)
+2773,Grandmaster (GM)
+2774,Grandmaster (GM)
+2775,Grandmaster (GM)
+2776,Grandmaster (GM)
+2777,Grandmaster (GM)
+2778,Grandmaster (GM)
+2779,Grandmaster (GM)
+2780,Grandmaster (GM)
+2781,Grandmaster (GM)
+2782,Grandmaster (GM)
+2783,Grandmaster (GM)
+2784,Grandmaster (GM)
+2785,Grandmaster (GM)
+2786,Grandmaster (GM)
+2787,Grandmaster (GM)
+2788,Grandmaster (GM)
+2789,Grandmaster (GM)
+2790,Grandmaster (GM)
+2791,Grandmaster (GM)
+2792,Grandmaster (GM)
+2793,Grandmaster (GM)
+2794,Grandmaster (GM)
+2795,Grandmaster (GM)
+2796,Grandmaster (GM)
+2797,Grandmaster (GM)
+2798,Grandmaster (GM)
+2799,Grandmaster (GM)
+2800,Grandmaster (GM)
+2801,Grandmaster (GM)
+2802,Grandmaster (GM)
+2803,Grandmaster (GM)
+2804,Grandmaster (GM)
+2805,Grandmaster (GM)
+2806,Grandmaster (GM)
+2807,Grandmaster (GM)
+2808,Grandmaster (GM)
+2809,Grandmaster (GM)
+2810,Grandmaster (GM)
+2811,Grandmaster (GM)
+2812,Grandmaster (GM)
+2813,Grandmaster (GM)
+2814,Grandmaster (GM)
+2815,Grandmaster (GM)
+2816,Grandmaster (GM)
+2817,Grandmaster (GM)
+2818,Grandmaster (GM)
+2819,Grandmaster (GM)
+2820,Grandmaster (GM)
+2821,Grandmaster (GM)
+2822,Grandmaster (GM)
+2823,Grandmaster (GM)
+2824,Grandmaster (GM)
+2825,Grandmaster (GM)
+2826,Grandmaster (GM)
+2827,Grandmaster (GM)
+2828,Grandmaster (GM)
+2829,Grandmaster (GM)
+2830,Grandmaster (GM)
+2831,Grandmaster (GM)
+2832,Grandmaster (GM)
+2833,Grandmaster (GM)
+2834,Grandmaster (GM)
+2835,Grandmaster (GM)
+2836,Grandmaster (GM)
+2837,Grandmaster (GM)
+2838,Grandmaster (GM)
+2839,Grandmaster (GM)
+2840,Grandmaster (GM)
+2841,Grandmaster (GM)
+2842,Grandmaster (GM)
+2843,Grandmaster (GM)
+2844,Grandmaster (GM)
+2845,Grandmaster (GM)
+2846,Grandmaster (GM)
+2847,Grandmaster (GM)
+2848,Grandmaster (GM)
+2849,Grandmaster (GM)
+2850,Grandmaster (GM)
+2851,Grandmaster (GM)
+2852,Grandmaster (GM)
+2853,Grandmaster (GM)
+2854,Grandmaster (GM)
+2855,Grandmaster (GM)
+2856,Grandmaster (GM)
+2857,Grandmaster (GM)
+2858,Grandmaster (GM)
+2859,Grandmaster (GM)
+2860,Grandmaster (GM)
+2861,Grandmaster (GM)
+2862,Grandmaster (GM)
+2863,Grandmaster (GM)
+2864,Grandmaster (GM)
+2865,Grandmaster (GM)
+2866,Grandmaster (GM)
+2867,Grandmaster (GM)
+2868,Grandmaster (GM)
+2869,Grandmaster (GM)
+2870,Grandmaster (GM)
+2871,Grandmaster (GM)
+2872,Grandmaster (GM)
+2873,Grandmaster (GM)
+2874,Grandmaster (GM)
+2875,Grandmaster (GM)
+2876,Grandmaster (GM)
+2877,Grandmaster (GM)
+2878,Grandmaster (GM)
+2879,Grandmaster (GM)
+2880,Grandmaster (GM)
+2881,Grandmaster (GM)
+2882,Grandmaster (GM)
+2883,Grandmaster (GM)
+2884,Grandmaster (GM)
+2885,Grandmaster (GM)
+2886,Grandmaster (GM)
+2887,Grandmaster (GM)
+2888,Grandmaster (GM)
+2889,Grandmaster (GM)
+2890,Grandmaster (GM)
+2891,Grandmaster (GM)
+2892,Grandmaster (GM)
+2893,Grandmaster (GM)
+2894,Grandmaster (GM)
+2895,Grandmaster (GM)
+2896,Grandmaster (GM)
+2897,Grandmaster (GM)
+2898,Grandmaster (GM)
+2899,Grandmaster (GM)
+2900,Grandmaster (GM)
+2901,Grandmaster (GM)
+2902,Grandmaster (GM)
+2903,Grandmaster (GM)
+2904,Grandmaster (GM)
+2905,Grandmaster (GM)
+2906,Grandmaster (GM)
+2907,Grandmaster (GM)
+2908,Grandmaster (GM)
+2909,Grandmaster (GM)
+2910,Grandmaster (GM)
+2911,Grandmaster (GM)
+2912,Grandmaster (GM)
+2913,Grandmaster (GM)
+2914,Grandmaster (GM)
+2915,Grandmaster (GM)
+2916,Grandmaster (GM)
+2917,Grandmaster (GM)
+2918,Grandmaster (GM)
+2919,Grandmaster (GM)
+2920,Grandmaster (GM)
+2921,Grandmaster (GM)
+2922,Grandmaster (GM)
+2923,Grandmaster (GM)
+2924,Grandmaster (GM)
+2925,Grandmaster (GM)
+2926,Grandmaster (GM)
+2927,Grandmaster (GM)
+2928,Grandmaster (GM)
+2929,Grandmaster (GM)
+2930,Grandmaster (GM)
+2931,Grandmaster (GM)
+2932,Grandmaster (GM)
+2933,Grandmaster (GM)
+2934,Grandmaster (GM)
+2935,Grandmaster (GM)
+2936,Grandmaster (GM)
+2937,Grandmaster (GM)
+2938,Grandmaster (GM)
+2939,Grandmaster (GM)
+2940,Grandmaster (GM)
+2941,Grandmaster (GM)
+2942,Grandmaster (GM)
+2943,Grandmaster (GM)
+2944,Grandmaster (GM)
+2945,Grandmaster (GM)
+2946,Grandmaster (GM)
+2947,Grandmaster (GM)
+2948,Grandmaster (GM)
+2949,Grandmaster (GM)
+2950,Grandmaster (GM)
+2951,Grandmaster (GM)
+2952,Grandmaster (GM)
+2953,Grandmaster (GM)
+2954,Grandmaster (GM)
+2955,Grandmaster (GM)
+2956,Grandmaster (GM)
+2957,Grandmaster (GM)
+2958,Grandmaster (GM)
+2959,Grandmaster (GM)
+2960,Grandmaster (GM)
+2961,Grandmaster (GM)
+2962,Grandmaster (GM)
+2963,Grandmaster (GM)
+2964,Grandmaster (GM)
+2965,Grandmaster (GM)
+2966,Grandmaster (GM)
+2967,Grandmaster (GM)
+2968,Grandmaster (GM)
+2969,Grandmaster (GM)
+2970,Grandmaster (GM)
+2971,Grandmaster (GM)
+2972,Grandmaster (GM)
+2973,Grandmaster (GM)
+2974,Grandmaster (GM)
+2975,Grandmaster (GM)
+2976,Grandmaster (GM)
+2977,Grandmaster (GM)
+2978,Grandmaster (GM)
+2979,Grandmaster (GM)
+2980,Grandmaster (GM)
+2981,Grandmaster (GM)
+2982,Grandmaster (GM)
+2983,Grandmaster (GM)
+2984,Grandmaster (GM)
+2985,Grandmaster (GM)
+2986,Grandmaster (GM)
+2987,Grandmaster (GM)
+2988,Grandmaster (GM)
+2989,Grandmaster (GM)
+2990,Grandmaster (GM)
+2991,Grandmaster (GM)
+2992,Grandmaster (GM)
+2993,Grandmaster (GM)
+2994,Grandmaster (GM)
+2995,Grandmaster (GM)
+2996,Grandmaster (GM)
+2997,Grandmaster (GM)
+2998,Grandmaster (GM)
+2999,Grandmaster (GM)
+3000,Grandmaster (GM)
