@@ -237,20 +237,20 @@ https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualiza
 White is favored to win at all rating levels with an average ~4% lead, though at the GM level, the difference decreases significantly to <1%, and draw percentage jumps to 7%  
 ![Win Percentage by Color](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/wins_by_color.png)
 
-2. What is the distribution of rated titles?  
+2. **What is the distribution of rated titles?**  
 ![Title Distribution](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/title_distribution.png)
 
-3. What is the most commmon opening overall, and by rated title?  
+3. **What is the most commmon opening overall, and by rated title?**  
 The top 5 most common openings overall (in order) are the Queen's Pawn Game, Sicilian Defense, King's Pawn Game, French Defense, and the Polish Opening. While the order changes around depending on the player rating group (novice, amateur, master, grandmaster), the top 5 remain the same.  
 ![Opening Frequency](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/opening_frequency.png)
 
-4. What opening has the highest win chance by color?  
+4. **What opening has the highest win chance by color?**  
 For black:  
 ![Best Openings for Black](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/black_best_openings.png)  
 For white:  
 ![Best Openings for White](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/white_best_openings.png)
 
-5. What is the average number of games played per day for each rated title?  
+5. **What is the average number of games played per day for each rated title?**  
 The games per day increase as rating increases, going from <1 game per day for novices, and just over 2 games per day.  
 ![Games per Day per Title](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/games_per_day.png)
 
