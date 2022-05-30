@@ -1,1 +1,2 @@
 datasets/clean/chess_games.zip filter=lfs diff=lfs merge=lfs -text
+datasets/tableau/chess_data_tableau.zip filter=lfs diff=lfs merge=lfs -text
