@@ -14,13 +14,13 @@ The purpose of our analysis was to use statistical and machine learning analysis
 ### Statistical Analysis Questions
 1. What is the probability of win/lose/draw by color, and does that change by rating bracket?
     
-2. What are your chances of winning based on ELO difference, for both white and black? Does that change per bracket?
+2. What is the distribution of rated titles?
     
-3. What is the most commmon opening overall, and by ELO bracket?
+3. What is the most commmon opening overall, and by rated title?
 
-4. What opening has the highest win chance by color and by ELO bracket?
+4. What opening has the highest win chance by color?
 
-5. By ELO bracket, what is the average number of games needed to improve?
+5. What is the average number of games played per day for each rated title?
 
 ### Machine Learning Question
 1. Does the opening matter? If an opening is defined by the first 5 moves, can an ML model predict (*with a high degree of accuracy) a winner from a color's first five moves?
@@ -209,7 +209,7 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 
 ![ML Table](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_table.png)
 
-### ML Results
+#### ML Results
  Since our last submission, we have evaluated an additional 5 models for a total of 6. The loss, accuracy scores, and parameters of our 6 models are shown below:
 
  ![ML Results](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_results.png)
@@ -222,12 +222,41 @@ Given this information, our course of action for the final steps of completing t
 
 ### VI: Build the Dashboard (Statistical Analysis/Data Analysis)
 
-* Master games table imported into Tableau, to answer statistical analysis questions and generate visualizations
+#### Tableau Dashboard Link
+https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Lichess_Games_Data_Visualization?publish=yes
 
-* Tableau Link to visualizations: https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Lichess_Games_Data_Visualization?publish=yes
+#### Database to Tableau Preprocessing
+* Master table of chess games reduced to games where both players are the same general title (novice, amateur, master, grandmaster), for use in opening visualizations by rating) (~800k games) (**chess_data_tableau.csv**)
+
+* Unique list of chess users created from database, and combined with titles from chess_titles.csv (~110k users) (**chess_users_tableau.csv**)
+
+* Chess users list reduced to users with all their games in the same month, then grouped by title for games/day analysis (~105k users) (**daily_games_tableau.csv**)
+
+#### Statistical Analysis/Results
+1. **What is the probability of win/lose/draw by color, and does that change by rating bracket?**     
+White is favored to win at all rating levels with an average ~4% lead, though at the GM level, the difference decreases significantly to <1%, and draw percentage jumps to 7%  
+![Win Percentage by Color](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/wins_by_color.png)
+
+2. What is the distribution of rated titles?  
+![Title Distribution](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/title_distribution.png)
+
+3. What is the most commmon opening overall, and by rated title?  
+The top 5 most common openings overall (in order) are the Queen's Pawn Game, Sicilian Defense, King's Pawn Game, French Defense, and the Polish Opening. While the order changes around depending on the player rating group (novice, amateur, master, grandmaster), the top 5 remain the same.  
+![Opening Frequency](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/opening_frequency.png)
+
+4. What opening has the highest win chance by color?  
+For black:  
+![Best Openings for Black](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/black_best_openings.png)  
+For white:  
+![Best Openings for White](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/white_best_openings.png)
+
+5. What is the average number of games played per day for each rated title?  
+The games per day increase as rating increases, going from <1 game per day for novices, and just over 2 games per day.  
+![Games per Day per Title](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/games_per_day.png)
 
 ### VII: Presentation
 * Results from machine learning model and statistical analysis put together on Google Slides presentation
 
-* Link to slides: https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64EaXw/edit?usp=sharing
+#### Link to slides:
+https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64EaXw/edit?usp=sharing
 
