@@ -4,7 +4,7 @@
 https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64EaXw/edit?usp=sharing
 
 ### Dashboard Link
-https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Chess_Games_Group_Analysis?publish=yes
+https://public.tableau.com/views/Lichess_Games_Data_Visualization_16534458112280/Chess_Games_Group_Analysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ## Introduction
 
@@ -248,7 +248,7 @@ Finally, a repetition of our analysis with more input features could be performe
 ### VI: Build the Dashboard (Statistical Analysis/Data Analysis)
 
 #### Tableau Dashboard Link
-https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Chess_Games_Group_Analysis?publish=yes
+https://public.tableau.com/views/Lichess_Games_Data_Visualization_16534458112280/Chess_Games_Group_Analysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 #### Database to Tableau Preprocessing
 * Master table of chess games reduced to games where both players are the same general title (novice, amateur, master, grandmaster), for use in opening visualizations by rating) (~800k games) (**chess_data_tableau.csv**)
