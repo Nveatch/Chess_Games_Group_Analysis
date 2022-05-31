@@ -41,33 +41,20 @@ The purpose of our analysis was to use statistical and machine learning analysis
 ### I: Find Raw Datasets
 For our analysis we used 2 different chess datasets sourced from Kaggle:
 
-1. **Games.csv:** A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API (https://www.kaggle.com/datasets/datasnaek/chess)
-
-    -The following columns will be used for statistical analysis:
-        
-        -**Turns:** The number of moves played
-        
-        -**Winner:** Who won the game
-
-        -**White/Black_id:** The ID of the player for the respective side
-
-        -**White/Black_ELO:** The ELO rankings for the white and black players
-
-        -**Opening_eco:** The generic ECO code for the opening
-
-        -**Opening_name:** The specific name of the opening
+1. **Games.csv:** A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API (https://www.kaggle.com/datasets/datasnaek/chess). The following columns will be used for statistical analysis:
+* **Turns:** The number of moves played
+* **Winner:** Who won the game
+* **White/Black_id:** The ID of the player for the respective side
+* **White/Black_ELO:** The ELO rankings for the white and black players
+* **Opening_eco:** The generic ECO code for the opening
+* **Opening_name:** The specific name of the opening
     
-
-    -The columns that will be used for the ML analysis are:
-
-        -**Winner:** game result (as our labels)
-
-        -**Moves:** Movements in the game (as our features)
+The columns that will be used for the ML analysis are:
+* **Winner:** game result (as our labels)
+* **Moves:** Movements in the game (as our features)
 
 
-2. **Chess_games.csv:** A collection of 6.25 million chess games played on lichess.org during July of 2016 (https://www.kaggle.com/datasets/arevel/chess-games)
-
-We will be randomly sampling 1 million rows off of this table to reduce the computational power needed to complete our analysis. We believe this sample size will still be sufficiently large to draw our conclusion. The following columns will be used for statistical analysis:
+2. **Chess_games.csv:** A collection of 6.25 million chess games played on lichess.org during July of 2016 (https://www.kaggle.com/datasets/arevel/chess-games). We will be randomly sampling 1 million rows off of this table to reduce the computational power needed to complete our analysis. We believe this sample size will still be sufficiently large to draw our conclusion. The following columns will be used for statistical analysis:
 * Turns: Number of moves played (to be derived from the move list "AN")
 * Result: Who won the game
 * White/Black: The ID of the player for the respective side
