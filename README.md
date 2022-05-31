@@ -201,11 +201,11 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 
 #### Standardization
 -Each unique move was assigned its own unique number for each feature column (ex. “E4” was 0, "D4" was 1, etc.), and our “result” label column was also transformed with a unique number for each result:
-    - 0: Draw
+    \- 0: Draw
     
-    - 1: White Wins
+    \- 1: White Wins
     
-    - 2: Black wins
+    \- 2: Black wins
 
 ![ML Table](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_table.png)
 
