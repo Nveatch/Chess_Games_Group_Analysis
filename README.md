@@ -128,29 +128,19 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 ### III. Raw Table Preprocessing (Data Exploration)
 
 * Duplicate rows removed from datasets
-
 * Rows (games) missing move information or player ratings removed from datasets
-
 * **Chess_games.csv** randomly sampled for 1 million rows
-
 * "Winner"/"Result" columns standardized to use same format (White, Black, or Draw)
-
 * Game date and time standardized for both datasets
-
 * Game moves cleaned up, removing turn numbers and in-line chess engine evaluations
-
 * Columns other than the ones listed above dropped from datasets (aside from game date, which is kept for indexing purposes)
-
 * Similar columns in both tables renamed to match each other
 
 ### IV: Build the Database
 
 * **Chess**, **chess_games**, and **chess_titles** imported into PostgreSQL relational database
-
 * **Chess** and **chess_games** merged to produce master **games** table (of all games) 
-
 * Player data from master **games** table joined with **chess_titles** table to make **player_titles** table, for use in answering statistical analysis questions (player_id/player_rating/player_title)
-
 *  Master **games** table exported out of database into jupyter notebook to replace opening names with simplified names from **chess_openings.csv**, as well as to remove rows without a winner, then imported back into database
 
 ### V: Build the Machine Learning (ML) Model
@@ -161,51 +151,38 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 
 **Benefits**:
 
--They excel at pattern recognition, and the game of chess is ultimately a game of pattern recognition, looking at a position for similarities to other games seen
-
--Openings are even more patternistic, as openings are just a pattern of moves, repeated at the beginning of every game. In addition, they don’t form a linear relationship with the outcome, and neural networks excel at analyzing non-linear relationships 
-
--Neural networks work best with large datasets, and our dataset has 1 million+ games
+* They excel at pattern recognition, and the game of chess is ultimately a game of pattern recognition, looking at a position for similarities to other games seen
+* Openings are even more patternistic, as openings are just a pattern of moves, repeated at the beginning of every game. In addition, they don’t form a linear relationship with the outcome, and neural networks excel at analyzing non-linear relationships
+* Neural networks work best with large datasets, and our dataset has 1 million+ games
 
 **Limitations**:
 
--Neural networks have a high likelihood of overfitting to the training data, and thus losing accuracy when tested
-
-    -In our case, an example of this would be if a common set of the first 3 moves won often, and thus the model leans towards all openings with those 3 moves resulting in a win. The trend however, is more sophisticated than that, and thus results in a loss of accuracy.
-
-    -To counter this, we’re using a large dataset, with the idea being that by providing the neural network with enough data, it won’t fall into that pitfall.
+* Neural networks have a high likelihood of overfitting to the training data, and thus losing accuracy when tested
+    * In our case, an example of this would be if a common set of the first 3 moves won often, and thus the model leans towards all openings with those 3 moves resulting in a win. The trend however, is more sophisticated than that, and thus results in a loss of accuracy
+    * To counter this, we’re using a large dataset, with the idea being that by providing the neural network with enough data, it won’t fall into that pitfall.
 
 **Features:**
 
--White moves 1-5, Black moves 1-5 (in chess notation)
+White moves 1-5, Black moves 1-5 (in chess notation)
 
 **Labels:**
--The result of the game:
+The result of the game:
 * 1-0: White Wins
 * 0-1: Black Wins
 * ½-½: Draw
 
-**Data-Split:** 75% training, 25% testing, using train_test_split from python’s sklearn library (sklearn.model_selection)
+**Data-Split:** 75% training, 25% testing, using train_test_split from Python’s sklearn library (sklearn.model_selection)
 
 #### Feature Engineering for ML Model
--To answer our question, we needed to get the opening moves from our dataset (our features):
-    -Our features were already in their own column (“moves”), but some transformation work was needed: The special symbols used in chess notation needed to be removed (ex.  “!” for a good move, “?” for a mistake), as for our analysis, we only care about the move itself, and thus want “e4” and “e4!” to be considered the same move
+To answer our question, we needed to get the opening moves from our dataset (our features). Our features were already in their own column (“moves”), but some transformation work was needed. The special symbols used in chess notation needed to be removed (ex.  “!” for a good move, “?” for a mistake), as for our analysis, we only care about the move itself, and thus want “e4” and “e4!” to be considered the same move. The first 10 moves were then split into their own columns, and labeled Wm1-Wm5 and Bm1-Bm5 (white and black moves 1-5,respectively). These columns were then separated into their own “moves” dataset.
 
-    -The first 10 moves were then split into their own columns, and labeled Wm1-Wm5 and Bm1-Bm5 (white and black moves 1-5,respectively)
-
-    -These columns were then separated into their own “moves” dataset
-
--We needed the winner of each game for our label:
-
-    -Our labels were also in their own column in the dataset (“result”), and thus just needed to be taken and added to the “moves” dataset (as “outcome”)
+We needed the winner of each game to use as our label. These values were also in their own column in the dataset (“result”), and thus just needed to be taken and added to the “moves” dataset (as “outcome”).
 
 #### Standardization
--Each unique move was assigned its own unique number for each feature column (ex. “E4” was 0, "D4" was 1, etc.), and our “result” label column was also transformed with a unique number for each result:
-    -0: Draw
-    
-    -1: White Wins
-    
-    -2: Black wins
+Each unique move was assigned its own unique number for each feature column (ex. “E4” was 0, "D4" was 1, etc.), and our “result” label column was also transformed with a unique number for each result:
+* 0: Draw
+* 1: White Wins
+* 2: Black wins
 
 ![ML Table](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_table.png)
 
