@@ -223,13 +223,22 @@ For the first stage of this analysis, we tried 6 models of varying parameters. T
 | 5 | 6.5152 | 0.4983 | Relu input wiht 5 nodes, linear output, 5 epochs |
 | 6 | 0.6820 | 0.4983 | Tanh input with 5 nodes, linear output, 5 epochs |
 
-![ML Results](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_results.png)
-
 The accuracy score for all 6 models was identical at 0.4983. An accuracy score of exactly 0.5 is the probability of randomly guessing the correct winner of a given game of chess, so the accuracy score of our models may reflect the difficulty of predicting a winner from only the first 10 moves of a game. Since games typically last far longer than 10 turns and the possible combinations of moves grow increasingly complex, this is not a surprising conclusion.
 
 Loss function, on the other hand, was not constant. The two models with relu inputs (Models 2 and 5) had the greatest loss score, indicating that the relu activation function is likely not the best choice for our model. Additionally, the models with sigmoid outputs (Models 1, 2, and 3) had lower loss functions than their counterpart models with linear outputs (Models 4, 5, and 6 respectively). This is expected, as output from a sigmoid function tends to be very close to either 0 or 1. We are posing a question with a binary answer, so a sigmoid function is the best choice for an activation function for our output layer.
 
 Given this information, our course of action for the final steps of completing this model will be to explore more varied input layers. This will be accomplished by varying the activation function (using sigmoid and tanh, leaving relu out), number of layers, number of nodes within each layer, and number of epochs used to train the model. We hypothesize that the sigmoid activation function will be the more appropriate choice for the input layer(s) for the same reasons it is the best choice for the output layer.
+
+**Stage 2**
+The next step of our analysis was to determine whether adding an additional input layer would assist in lowering loss or raising accuracy in our model. The loss, accuracy, and parameters for Models 7-10 are shown below:
+
+| Model | Loss | Accuracy | Parameters |
+| :---- | :--- | :------- | :--------- |
+| 7 | 0.6817 | 0.4983 | Two sigmoid input layers with 5 nodes each, sigmoid output, 5 epochs |
+| 8 | 0.6919 | 0.4983 | Sigmoid first input layer and tanh second input layer with 5 nodes each, sigmoid output, 5 epochs |
+| 9 | 0.6816 | 0.4983 | Tanh first input layer and sigmoid second input layer with 5 nodes each, sigmoid output, 5 epochs |
+| 10 | 0.6817 | 0.4983 | Two tanh input layers with 5 nodes each, sigmoid output, 5 epochs |
+
 
 ### VI: Build the Dashboard (Statistical Analysis/Data Analysis)
 
