@@ -94,7 +94,8 @@ The following columns will be used for the machine learning analysis:
 * **Chess**, **chess_games**, and **chess_titles** imported into PostgreSQL relational database
 * **Chess** and **chess_games** merged to produce master **games** table (of all games) 
 * Player data from master **games** table joined with **chess_titles** table to make **player_titles** table, for use in answering statistical analysis questions (player_id/player_rating/player_title)
-*  Master **games** table exported out of database into jupyter notebook to replace opening names with simplified names from **chess_openings.csv**, as well as to remove rows without a winner, then imported back into database
+*  Master **games** table exported out of database into jupyter notebook to replace opening names with simplified names from **chess_openings.csv**, as well as to remove rows without a winner, then imported back into database  
+![Static Database](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/SQL/static_data_in_database_proof.png)
 
 ### V: Build the Machine Learning Model
 
