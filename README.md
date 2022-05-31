@@ -23,7 +23,7 @@ The purpose of our analysis was to use statistical and machine learning analysis
 5. What is the average number of games played per day for each rated title?
 
 ### Machine Learning Question
-1. Does the opening matter? If an opening is defined by the first 5 moves, can an ML model predict (with a high degree of accuracy) a winner from a color's first five moves?
+1. Does the opening matter? If an opening is defined by the first 5 moves, can a machine learning model predict (with a high degree of accuracy) a winner from a color's first five moves?
 
 ### Technologies
 * Languages: Python, SQL
@@ -33,7 +33,7 @@ The purpose of our analysis was to use statistical and machine learning analysis
 * Dashboard: Tableau
 * Visualizations: Tableau
 * Presentation: Google Slides
-* ML: Tensorflow library with jupyter notebook
+* Machine learning: Tensorflow library with jupyter notebook
 * Custom Tables: Excel
 
 ## Outline of Project
@@ -41,7 +41,7 @@ The purpose of our analysis was to use statistical and machine learning analysis
 ### I: Find Raw Datasets
 For our analysis we used 2 different chess datasets sourced from Kaggle:
 
-1. **Games.csv:** A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API (https://www.kaggle.com/datasets/datasnaek/chess). The following columns will be used for statistical analysis:
+**Games.csv:** A random assortment of ~20,000 games played by chess teams on the chess website lichess.com, pulled via the Lichess API (https://www.kaggle.com/datasets/datasnaek/chess). The following columns will be used for statistical analysis:
 * **Turns:** The number of moves played
 * **Winner:** Who won the game
 * **White/Black_id:** The ID of the player for the respective side
@@ -49,12 +49,11 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 * **Opening_eco:** The generic ECO code for the opening
 * **Opening_name:** The specific name of the opening
     
-The columns that will be used for the ML analysis are:
+The following columns will be used for the machine learning analysis:
 * **Winner:** game result (as our labels)
 * **Moves:** Movements in the game (as our features)
 
-
-2. **Chess_games.csv:** A collection of 6.25 million chess games played on lichess.org during July of 2016 (https://www.kaggle.com/datasets/arevel/chess-games). We will be randomly sampling 1 million rows off of this table to reduce the computational power needed to complete our analysis. We believe this sample size will still be sufficiently large to draw our conclusion. The following columns will be used for statistical analysis:
+**Chess_games.csv:** A collection of 6.25 million chess games played on lichess.org during July of 2016 (https://www.kaggle.com/datasets/arevel/chess-games). We will be randomly sampling 1 million rows off of this table to reduce the computational power needed to complete our analysis. We believe this sample size will still be sufficiently large to draw our conclusion. The following columns will be used for statistical analysis:
 * Turns: Number of moves played (to be derived from the move list "AN")
 * Result: Who won the game
 * White/Black: The ID of the player for the respective side
@@ -101,9 +100,9 @@ We used this table to determine both the most common openings, and the openings 
 * Player data from master **games** table joined with **chess_titles** table to make **player_titles** table, for use in answering statistical analysis questions (player_id/player_rating/player_title)
 *  Master **games** table exported out of database into jupyter notebook to replace opening names with simplified names from **chess_openings.csv**, as well as to remove rows without a winner, then imported back into database
 
-### V: Build the Machine Learning (ML) Model
+### V: Build the Machine Learning Model
 
-#### ML Model Design
+#### Machine Learning Model Design
 
 **Model Choice**: Neural Network
 
@@ -129,7 +128,7 @@ The result of the game:
 
 **Data-Split:** 75% training, 25% testing, using train_test_split from Python’s sklearn library (sklearn.model_selection)
 
-#### Feature Engineering for ML Model
+#### Feature Engineering for Machine Learning Model
 To answer our question, we needed to get the opening moves from our dataset (our features). Our features were already in their own column (“moves”), but some transformation work was needed. The special symbols used in chess notation needed to be removed (ex.  “!” for a good move, “?” for a mistake), as for our analysis, we only care about the move itself, and thus want “e4” and “e4!” to be considered the same move. The first 10 moves were then split into their own columns, and labeled Wm1-Wm5 and Bm1-Bm5 (white and black moves 1-5,respectively). These columns were then separated into their own “moves” dataset.
 
 We needed the winner of each game to use as our label. These values were also in their own column in the dataset (“result”), and thus just needed to be taken and added to the “moves” dataset (as “outcome”).
@@ -142,7 +141,7 @@ Each unique move was assigned its own unique number for each feature column (ex.
 
 ![ML Table](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_table.png)
 
-#### ML Results
+#### Machine Learning Results
 
 **Stage 1**
 
