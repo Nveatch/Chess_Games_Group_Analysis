@@ -26,15 +26,15 @@ The purpose of our analysis was to use statistical and machine learning analysis
 1. Does the opening matter? If an opening is defined by the first 5 moves, can a machine learning model predict (with a high degree of accuracy) a winner from a color's first five moves?
 
 ### Technologies
-* Languages: Python, SQL
-* Database: PostgreSQL
-* Database Interface: PgAdmin 4
-* Preprocessing: Jupyter notebook, Pandas
-* Dashboard: Tableau
-* Visualizations: Tableau
-* Presentation: Google Slides
-* Machine learning: Tensorflow library with jupyter notebook
-* Custom Tables: Excel
+* **Languages**: Python, SQL
+* **Database**: PostgreSQL
+* **Database Interface**: PgAdmin 4
+* **Preprocessing**: Jupyter notebook, Pandas
+* **Dashboard**: Tableau
+* **Visualizations**: Tableau
+* **Presentation**: Google Slides
+* **Machine learning**: Tensorflow library with jupyter notebook
+* **Custom Tables**: Excel
 
 ## Outline of Project
 
@@ -54,17 +54,17 @@ The following columns will be used for the machine learning analysis:
 * **Moves:** Movements in the game (as our features)
 
 **Chess_games.csv:** A collection of 6.25 million chess games played on lichess.org during July of 2016 (https://www.kaggle.com/datasets/arevel/chess-games). We will be randomly sampling 1 million rows off of this table to reduce the computational power needed to complete our analysis. We believe this sample size will still be sufficiently large to draw our conclusion. The following columns will be used for statistical analysis:
-* Turns: Number of moves played (to be derived from the move list "AN")
-* Result: Who won the game
-* White/Black: The ID of the player for the respective side
-* White/BlackElo: The ELO rankings for the white and black players
-* BlackRatingDiff: The rating difference between the two players
-* ECO: The generic ECO code for the opening
-* Opening: The specific name of the opening
+* **Turns**: Number of moves played (to be derived from the move list "AN")
+* **Result**: Who won the game
+* **White/Black**: The ID of the player for the respective side
+* **White/BlackElo**: The ELO rankings for the white and black players
+* **BlackRatingDiff**: The rating difference between the two players
+* **ECO**: The generic ECO code for the opening
+* **Opening**: The specific name of the opening
 
 The following columns will be used for the machine learning analysis:
-* Result: Game result (as our labels)
-* AN: Movements in the game (as our features)
+* **Result**: Game result (as our labels)
+* **AN**: Movements in the game (as our features)
 
 
  ### II. Build Custom Tables
@@ -75,8 +75,8 @@ The following columns will be used for the machine learning analysis:
 * **Title:** The player title associated with each numerical rating
 
 **Chess_openings.csv:** A simplified version of chess openings by ECO (Encyclopedia of Chess Openings) code, with opening variations renamed as their parent opening (https://www.365chess.com/eco.php). We used this table to determine both the most common openings, and the openings with the highest win rate, as per our questions. As there is very little difference between variations, we felt it was acceptable to group the variations together, in order to get more generalizable answers to our questions. In addition, some variations don't even have their own unique ECO code, so the data by its very nature already has some opening grouping. The table has two columns:
-* ECO_code: The opening ECO code, with a letter prefix (A through E) and two digit number (00 through 99), resulting in 500 possible codes
-* ECO_title: The name of the opening associated with that ECO code, with variations being changed to their parent name (ex. B28 (Sicilian Defense, O'Kelly Variation) is changed to match the parent opening B20 (Sicilian Defense))
+* **ECO_code**: The opening ECO code, with a letter prefix (A through E) and two digit number (00 through 99), resulting in 500 possible codes
+* **ECO_title**: The name of the opening associated with that ECO code, with variations being changed to their parent name (ex. B28 (Sicilian Defense, O'Kelly Variation) is changed to match the parent opening B20 (Sicilian Defense))
 
 ### III. Raw Table Preprocessing (Data Exploration)
 
@@ -251,7 +251,7 @@ Finally, a repetition of our analysis with more input features could be performe
 ### VI: Build the Dashboard (Statistical Analysis/Data Analysis)
 
 #### Tableau Dashboard Link
-https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Lichess_Games_Data_Visualization?publish=yes
+https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Chess_Games_Group_Analysis?publish=yes
 
 #### Database to Tableau Preprocessing
 * Master table of chess games reduced to games where both players are the same general title (novice, amateur, master, grandmaster), for use in opening visualizations by rating) (~800k games) (**chess_data_tableau.csv**)
