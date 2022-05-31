@@ -4,7 +4,7 @@
 https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64EaXw/edit?usp=sharing
 
 ### Dashboard Link
-https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Lichess_Games_Data_Visualization?publish=yes
+https://public.tableau.com/app/profile/ravi7215/viz/Lichess_Games_Data_Visualization/Chess_Games_Group_Analysis?publish=yes
 
 ## Introduction
 
