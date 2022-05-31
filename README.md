@@ -118,9 +118,6 @@ The following columns will be used for the machine learning analysis:
 
 **Labels:**
 * The result of the game
-    * 1-0: White Wins
-    * 0-1: Black Wins
-    * ½-½: Draw
 
 **Data-Split:** 75% training, 25% testing, using train_test_split from Python’s sklearn library (sklearn.model_selection)
 
