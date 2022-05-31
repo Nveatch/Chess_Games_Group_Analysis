@@ -210,9 +210,20 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 ![ML Table](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_table.png)
 
 #### ML Results
- Since our last submission, we have evaluated an additional 5 models for a total of 6. The loss, accuracy scores, and parameters of our 6 models are shown below:
 
- ![ML Results](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_results.png)
+**Stage 1**
+For the first stage of this analysis, we tried 6 models of varying parameters. The loss, accuracy scores, and parameters of our 6 models are shown below:
+
+| Model | Loss | Accuracy | Parameters |
+| :---- | :--- | :------- | :--------- |
+| 1 | 0.6819 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 5 epochs |
+| 2 | 0.6922 | 0.4983 | Relu input with 5 nodes, sigmoid output, 5 epochs |
+| 3 | 0.6819 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 5 epochs |
+| 4 | 0.6826 | 0.4983 | Sigmoid input with 5 nodes, linear output, 5 epochs |
+| 5 | 6.5152 | 0.4983 | Relu input wiht 5 nodes, linear output, 5 epochs |
+| 6 | 0.6820 | 0.4983 | Tanh input with 5 nodes, linear output, 5 epochs |
+
+![ML Results](https://github.com/Nveatch/Chess_Games_Group_Analysis/blob/main/resources/ML_results.png)
 
 The accuracy score for all 6 models was identical at 0.4983. An accuracy score of exactly 0.5 is the probability of randomly guessing the correct winner of a given game of chess, so the accuracy score of our models may reflect the difficulty of predicting a winner from only the first 10 moves of a game. Since games typically last far longer than 10 turns and the possible combinations of moves grow increasingly complex, this is not a surprising conclusion.
 
