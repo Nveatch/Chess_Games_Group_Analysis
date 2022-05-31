@@ -16,7 +16,7 @@ The purpose of our analysis was to use statistical and machine learning analysis
     
 2. What is the distribution of rated titles?
     
-3. What is the most commmon opening overall, and by rated title?
+3. What is the most common opening overall, and by rated title?
 
 4. What opening has the highest win chance by color?
 
