@@ -212,6 +212,7 @@ For our analysis we used 2 different chess datasets sourced from Kaggle:
 #### ML Results
 
 **Stage 1**
+
 For the first stage of this analysis, we tried 6 models of varying parameters. The loss, accuracy scores, and parameters of our 6 models are shown below:
 
 | Model | Loss | Accuracy | Parameters |
@@ -230,6 +231,7 @@ Loss function, on the other hand, was not constant. The two models with relu inp
 Given this information, our course of action for the final steps of completing this model will be to explore more varied input layers. This will be accomplished by varying the activation function (using sigmoid and tanh, leaving relu out), number of layers, number of nodes within each layer, and number of epochs used to train the model. We hypothesize that the sigmoid activation function will be the more appropriate choice for the input layer(s) for the same reasons it is the best choice for the output layer.
 
 **Stage 2**
+
 The next step of our analysis was to determine whether adding an additional input layer would assist in lowering loss or raising accuracy in our model. The loss, accuracy, and parameters for Models 7-10 are shown below:
 
 | Model | Loss | Accuracy | Parameters |
@@ -239,6 +241,84 @@ The next step of our analysis was to determine whether adding an additional inpu
 | 9 | 0.6816 | 0.4983 | Tanh first input layer and sigmoid second input layer with 5 nodes each, sigmoid output, 5 epochs |
 | 10 | 0.6817 | 0.4983 | Two tanh input layers with 5 nodes each, sigmoid output, 5 epochs |
 
+Accuracy continued to remain constant across all models, even when an additional input layer was added. Loss varied slightly, but not to a significant extent; the greatest difference in loss between the best models from Stage 1 and Stage 2 was 0.0003. As such, we can conclude that adding a second input layer is not likely to significantly improve the ability of our machine learning model to predict the winner of a chess game from the first 10 moves. Additionally, we cannot draw any further conclusions regarding the efficacy of the sigmoid and tanh activation functions in input layers given the very similar results between the two.
+
+**Stage 3**
+
+To determine whether the number of nodes affected the performance of our models, we ran single-layer models with varied numbers of nodes. The loss, accuracy, and parameters for Models 11-14 (as well as Models 1 and 3 for comparison) are shown below:
+
+| Model | Loss | Accuracy | Parameters |
+| :---- | :--- | :------- | :--------- |
+| 1 | 0.6819 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 5 epochs |
+| 11 | 0.6817 | 0.4983 | Sigmoid input with 2 nodes, sigmoid output, 5 epochs |
+| 12 | 0.6817 | 0.4984 | Sigmoid input with 8 nodes, sigmoid output, 5 epochs |
+| 3 | 0.6818 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 5 epochs |
+| 13 | 0.6818 | 0.4983 | Tanh input with 2 nodes, sigmoid output, 5 epochs |
+| 14 | 0.6818 | 0.4983 | Tanh input with 8 nodes, sigmoid output, 5 epochs |
+
+Once again, loss and accuracy are more or less uniform. Model 12 is the first to show an accuracy score different from any other model, but a difference of 0.0001 is not significant. Given the results of Stage 3, we are unable to attribute number of nodes to model performance. Sigmoid and tanh input layers also continue to show no appreciable difference.
+
+**Stage 4**
+
+Finally, we tested the effect of number of epochs on model performance. The loss, accuracy, and parameters for Models 15-18 (as well as Models 1 and 3 for comparison) are shown below:
+
+| Model | Loss | Accuracy | Parameters |
+| :---- | :--- | :------- | :--------- |
+| 1 | 0.6819 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 5 epochs |
+| 15 | 0.6817 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 2 epochs |
+| 16 | 0.6816 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 10 epochs |
+| 3 | 0.6818 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 5 epochs |
+| 17 | 0.6819 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 2 epochs |
+| 18 | 0.6818 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 10 epochs |
+
+As with all other parameters, adjusting the number of epochs had little to no impact on the performance of our machine learning models. Input function continued to show no impact as well.
+
+**Conclusions**
+
+For reference, the loss, accuracy, and parameters for all models are shown again below:
+
+| Model | Loss | Accuracy | Parameters |
+| :---- | :--- | :------- | :--------- |
+| 1 | 0.6819 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 5 epochs |
+| 2 | 0.6922 | 0.4983 | Relu input with 5 nodes, sigmoid output, 5 epochs |
+| 3 | 0.6819 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 5 epochs |
+| 4 | 0.6826 | 0.4983 | Sigmoid input with 5 nodes, linear output, 5 epochs |
+| 5 | 6.5152 | 0.4983 | Relu input wiht 5 nodes, linear output, 5 epochs |
+| 6 | 0.6820 | 0.4983 | Tanh input with 5 nodes, linear output, 5 epochs |
+| 7 | 0.6817 | 0.4983 | Two sigmoid input layers with 5 nodes each, sigmoid output, 5 epochs |
+| 8 | 0.6919 | 0.4983 | Sigmoid first input layer and tanh second input layer with 5 nodes each, sigmoid output, 5 epochs |
+| 9 | 0.6816 | 0.4983 | Tanh first input layer and sigmoid second input layer with 5 nodes each, sigmoid output, 5 epochs |
+| 10 | 0.6817 | 0.4983 | Two tanh input layers with 5 nodes each, sigmoid output, 5 epochs |
+| 11 | 0.6817 | 0.4983 | Sigmoid input with 2 nodes, sigmoid output, 5 epochs |
+| 12 | 0.6817 | 0.4984 | Sigmoid input with 8 nodes, sigmoid output, 5 epochs |
+| 13 | 0.6818 | 0.4983 | Tanh input with 2 nodes, sigmoid output, 5 epochs |
+| 14 | 0.6818 | 0.4983 | Tanh input with 8 nodes, sigmoid output, 5 epochs |
+| 15 | 0.6817 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 2 epochs |
+| 16 | 0.6816 | 0.4983 | Sigmoid input with 5 nodes, sigmoid output, 10 epochs |
+| 17 | 0.6819 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 2 epochs |
+| 18 | 0.6818 | 0.4983 | Tanh input with 5 nodes, sigmoid output, 10 epochs |
+
+All four stages of this analysis showed that varying the parameters of our machine learning model had virtually no impact on both loss and accuracy. We were only able to draw conclusions regarding two of the five parameters examined: ruling out relu as an activation function and determining that sigmoid is the most appropriate output function. No conclusive evidence was found for the other three parameters. A summary of results can be found in the table below:
+
+| Parameter | Findings |
+| :---- | :--- | 
+| Activation function | Relu ruled out, no evidence that either sigmoid or tanh is better than the other |
+| Output function | Sigmoid deemed better than linear |
+| Number of layers | No evidence that either 1 layer or 2 layers is better than the other |
+| Number of nodes | No evidence that any of 2, 5, or 8 nodes is better than the others |
+| Number of epochs | No evidence that any of 2, 5, or 10 epochs is better than the others |
+
+All in all, the results of this study point to neural networks not being an effective means of predicting the winner of a game of chess given the first 10 moves. We supposed this was the case following the Stage 1 analysis, and Stages 2-4 supported the hypothesis. We cannot conclusively say that a neural network is entirely ineffective when trying to answer the question posed in this project since there are still many more combinations of parameters that could be tested, but the 18 models we examined gave us little reason to believe this is a path worth following.
+
+As previously stated, chess is a complex game. The possible outcomes are difficult to map as each individual move begets an exponentially branching tree of possibilities. Since games of chess tend to last far longer than 10 turns, our analysis is only able to scratch the surface. We were limited by a number of factors, most notably time and computing power. In theory, we could have extended our analysis far past the first 10 turns. However, adding an extra turn creates another branch on the tree and multiplies the number of computations necessary to perform this analysis. As such, we decided to examine whether determining a winner given 10 turns is possible with resources accessible to a wider range of people. Since accuracy scores remained very close to the probability of guessing a winner entirely at random throughout the entire project, the ultimate answer to our question is negative.
+
+**Future Analysis**
+
+The only type of machine learning used in this project was a neural network. While this method proved ineffective, other types of machine learning may be more useful in answering our question. For example, the flow of a game of chess closely mimics a quickly branching set of choices ultimately culminating in a winner. A decision tree may be an interesting way to map out chess games, though said tree would have to be almost impossibly large to accurately capture every possible combination of moves in a game of chess.
+
+Principal Component Analysis could possibly be used to incorporate more than 10 turns into the study without the number of input features reaching a problematically large number. This may be difficult given the qualitative nature of our input data, but it is an avenue to be explored.
+
+Finally, a repetition of our analysis with more input features could be performed given more time and access to faster computing. It is not realistic for a student using a personal computer to perform this analysis with the first 50 turns of a game of chess using a sufficiently large dataset since it would likely take too long and use up too many resources, but given enough time and computing power, this could either corroborate our conclusions or show that neural networks may be viable solution after all.
 
 ### VI: Build the Dashboard (Statistical Analysis/Data Analysis)
 
