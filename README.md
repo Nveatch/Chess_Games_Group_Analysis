@@ -70,17 +70,13 @@ The following columns will be used for the machine learning analysis:
  ### II. Build Custom Tables
  We made two additional tables (in csv format) to be used to answer our questions:
 
- 1. **Chess_titles.csv:** A list of chess titles by ELO rating, from the FIDE (International Chess Federation) handbook (https://handbook.fide.com/chapter/B012022)
-
-We used this table to determine each player's title from their rating in the raw datasets, in order to answer the "by ELO bracket" parts of our questions. It has two columns:
+**Chess_titles.csv:** A list of chess titles by ELO rating, from the FIDE (International Chess Federation) handbook (https://handbook.fide.com/chapter/B012022). We used this table to determine each player's title from their rating in the raw datasets, in order to answer the "by ELO bracket" parts of our questions. It has two columns:
 * **ELO_rating:** the numerical rating, ranging from 0 to 3000
 * **Title:** The player title associated with each numerical rating
 
- 2. **Chess_openings.csv:** A simplified version of chess openings by ECO (Encyclopedia of Chess Openings) code, with opening variations renamed as their parent opening (https://www.365chess.com/eco.php)
-
-We used this table to determine both the most common openings, and the openings with the highest win rate, as per our questions. As there is very little difference between variations, we felt it was acceptable to group the variations together, in order to get more generalizable answers to our questions. In addition, some variations don't even have their own unique ECO code, so the data by its very nature already has some opening grouping. The table has two columns:
+**Chess_openings.csv:** A simplified version of chess openings by ECO (Encyclopedia of Chess Openings) code, with opening variations renamed as their parent opening (https://www.365chess.com/eco.php). We used this table to determine both the most common openings, and the openings with the highest win rate, as per our questions. As there is very little difference between variations, we felt it was acceptable to group the variations together, in order to get more generalizable answers to our questions. In addition, some variations don't even have their own unique ECO code, so the data by its very nature already has some opening grouping. The table has two columns:
 * ECO_code: The opening ECO code, with a letter prefix (A through E) and two digit number (00 through 99), resulting in 500 possible codes
-* ECO_title:*The name of the opening associated with that ECO code, with variations being changed to their parent name(ex. B28 (Sicilian Defense, O'Kelly Variation) is changed to match the parent opening B20 (Sicilian Defense))
+* ECO_title: The name of the opening associated with that ECO code, with variations being changed to their parent name (ex. B28 (Sicilian Defense, O'Kelly Variation) is changed to match the parent opening B20 (Sicilian Defense))
 
 ### III. Raw Table Preprocessing (Data Exploration)
 
