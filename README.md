@@ -315,3 +315,11 @@ Results from machine learning model and statistical analysis put together on Goo
 #### Link to slides:
 https://docs.google.com/presentation/d/11254LDzm-sruI4YHZSqMZERHI9sCBM5osHUTU64EaXw/edit?usp=sharing
 
+## Conclusion
+
+### Things We Might Have Done Differently
+
+* **Increase Sample Size**: While sampling randomly did allow trends to be seen, using the full 6 million game dataset would increase the accuracy. For instance, on the games/day chart, grandmasters supposedly play 2 games/day, but the actual number is most likely higher, due to using only 1/6th of the total games to make that analysis.
+
+* **Use Unsimplified Openings**: As a result of using the smaller sample as mentioned, the opening variations had to be group by the common root, else the number of samples per variation would be too small. Increasing the sample size to 6 million games would allow less opening simplification, and thus provide more useful data about which openings are good and bad. 
+
