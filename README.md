@@ -26,15 +26,33 @@ The purpose of our analysis was to use statistical and machine learning analysis
 1. Does the opening matter? If an opening is defined by the first 5 moves, can a machine learning model predict (with a high degree of accuracy) a winner from a color's first five moves?
 
 ### Technologies
-* **Languages**: Python, SQL
-* **Database**: PostgreSQL
-* **Database Interface**: PgAdmin 4
-* **Preprocessing**: Jupyter notebook, Pandas
-* **Dashboard**: Tableau
-* **Visualizations**: Tableau
-* **Presentation**: Google Slides
-* **Machine learning**: Tensorflow library with jupyter notebook
-* **Custom Tables**: Excel
+
+#### Languages
+* **Python**: A high level general-purpose programming language, used throughout the project  
+* **SQL**: Query language used to interact with our database
+
+#### Database
+* **PostgreSQL**: Free and open-source relational database management system emphasizing extensibility and SQL compliance  
+
+#### Database Interface
+* **PgAdmin 4**: Interface used to see and modify PostgreSQL relational database
+
+#### Preprocessing
+* **Jupyter notebook**: Web-based interactive computing platform
+
+* **Pandas**: Software library written for the Python programming language for data manipulation and analysis
+
+#### Dashboard/Visualizations
+* **Tableau**: Data visualization tool 
+
+#### Presentation
+* **Google Slides**: Web-based slide presentation tool
+
+#### Machine learning (ML)
+* **Tensorflow**: Open source python library used to develop and train ML models
+
+#### Custom Tables
+* **Excel**: Part of Microsoft Office, a spreadsheet software program
 
 ## Outline of Project
 
