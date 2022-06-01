@@ -137,9 +137,11 @@ Each unique move was assigned its own unique number for each feature column (ex.
 
 #### Machine Learning Results
 
+Note: output values from each model (i.e., loss and accuracy) changed slightly when the notebooks containing the models we re-run, so values reported here may be slightly different from what appear in the machine learning notebook contained in this repository. Value changes were never significant 
+
 **Stage 1**
 
-For the first stage of this analysis, we tried 6 models of varying parameters. The loss, accuracy scores, and parameters of our 6 models are shown below:
+For the first stage of this analysis, we tried 6 models of varying parameters. The loss, accuracy scores, and parameters of our 6 models are shown below, followed by a confusion matrix for Model 1:
 
 | Model | Loss | Accuracy | Parameters |
 | :---- | :--- | :------- | :--------- |
@@ -150,9 +152,19 @@ For the first stage of this analysis, we tried 6 models of varying parameters. T
 | 5 | 6.5152 | 0.4983 | Relu input wiht 5 nodes, linear output, 5 epochs |
 | 6 | 0.6820 | 0.4983 | Tanh input with 5 nodes, linear output, 5 epochs |
 
+*Confusion Matrix*
+| | | Predicted | | |
+| :-: | :-: | :-: | :-: | :-: |
+| | | **0** | **1** | **2** |
+| **Actual** | **0** | 116,529 | 0 | 0 |
+| | **1** | 125,352 | 0 | 0 |
+| | **2** | 9654 | 0 | 0 |
+
 The accuracy score for all 6 models was identical at 0.4983. An accuracy score of exactly 0.5 is the probability of randomly guessing the correct winner of a given game of chess, so the accuracy score of our models may reflect the difficulty of predicting a winner from only the first 10 moves of a game. Since games typically last far longer than 10 turns and the possible combinations of moves grow increasingly complex, this is not a surprising conclusion.
 
 Loss function, on the other hand, was not constant. The two models with relu inputs (Models 2 and 5) had the greatest loss score, indicating that the relu activation function is likely not the best choice for our model. Additionally, the models with sigmoid outputs (Models 1, 2, and 3) had lower loss functions than their counterpart models with linear outputs (Models 4, 5, and 6 respectively). This is expected, as output from a sigmoid function tends to be very close to either 0 or 1. We are posing a question with a binary answer, so a sigmoid function is the best choice for an activation function for our output layer.
+
+The confusion matrix gives us some insight as to why this may be the case. The columns represent predictions made by the model, while rows represent the actual outcome. The model ended up predicting the same outcome for every instance of test data, indicating that it is essentially lost. It does not have enough information to make a more educated prediction and returns the same output value for each input, taking a proverbial "just put C for every answer" approach. This is early evidence that a neural network simply may not be able to accurately predict the outcome of a game of chess given the first ten moves of the game.
 
 Given this information, our course of action for the final steps of completing this model will be to explore more varied input layers. This will be accomplished by varying the activation function (using sigmoid and tanh, leaving relu out), number of layers, number of nodes within each layer, and number of epochs used to train the model. We hypothesize that the sigmoid activation function will be the more appropriate choice for the input layer(s) for the same reasons it is the best choice for the output layer.
 
