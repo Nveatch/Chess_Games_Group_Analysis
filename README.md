@@ -137,7 +137,7 @@ Each unique move was assigned its own unique number for each feature column (ex.
 
 #### Machine Learning Results
 
-Note: output values from each model (i.e., loss and accuracy) changed slightly when the notebooks containing the models we re-run, so values reported here may be slightly different from what appear in the machine learning notebook contained in this repository. Value changes were never significant 
+Note: output values from each model (i.e., loss and accuracy) changed slightly when the notebooks containing the models we re-run, so values reported here may be slightly different from what appear in the machine learning notebook contained in this repository. Value changes were never significant and do not affect the results described below.
 
 **Stage 1**
 
